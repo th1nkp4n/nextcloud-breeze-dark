@@ -1,7 +1,7 @@
 /*
 =============================================================================
 * Nextcloud breeze dark theme
-* Version: 12.0.7
+* Version: 13.0.0
 * Check it out at https://github.com/mwalbeck/nextcloud-breeze-dark
 =============================================================================
 */
@@ -24,8 +24,9 @@
   background-image: url("../img/actions/password.svg?v=1"); }
 
 /* Home --------------------------------------------------------------------- */
-#oc-dialog-filepicker-content .dirtree div:first-child a,
-.icon-inbox {
+.icon-home,
+.icon-inbox,
+#oc-dialog-filepicker-content .dirtree div:first-child a {
   background-image: url("../img/places/home.svg?v=1"); }
 
 /* Star --------------------------------------------------------------------- */
@@ -70,7 +71,8 @@
 
 /* Checkmark ---------------------------------------------------------------- */
 .icon-checkmark,
-.icon-sent {
+.icon-sent,
+.icon-category-enabled {
   background-image: url("../img/actions/checkmark.svg?v=1"); }
 
 /* History ------------------------------------------------------------------ */
@@ -123,12 +125,15 @@
   background-image: url("../img/actions/toggle-filelist.svg?v=1"); }
 
 /* Toggle Pictures ---------------------------------------------------------- */
+.icon-toggle-pictures,
 #albenoverview li {
   background-image: url("../img/actions/toggle-pictures.svg"); }
 
 /* Settings ----------------------------------------------------------------- */
 .settings-button,
-.icon-settings-dark {
+.icon-settings,
+.icon-settings-dark,
+.icon-category-tools {
   background-image: url("../img/actions/settings.svg?v=1"); }
 
 /* Add ---------------------------------------------------------------------- */
@@ -141,7 +146,9 @@
 
 /* More --------------------------------------------------------------------- */
 .icon-more,
-#app-navigation .app-navigation-entry-utils-menu-button button {
+#app-navigation .app-navigation-entry-utils
+.app-navigation-entry-utils-menu-button
+button:not([class^="icon-"]):not([class*=" icon-"]) {
   background-image: url("../img/actions/more.svg?v=1"); }
 
 /* Files -------------------------------------------------------------------- */
@@ -180,6 +187,10 @@ select {
   background-image: url("../img/actions/details.svg?v=1");
   opacity: 0.5; }
 
+/* Help --------------------------------------------------------------------- */
+.icon-help {
+  background-image: url("../img/help.svg"); }
+
 /* Clippy ------------------------------------------------------------------- */
 .icon-clippy {
   background-image: url("../img/actions/clippy.svg?v=2");
@@ -210,26 +221,43 @@ select {
   background-image: url("../img/actions/rss.svg") !important; }
 
 /* Close -------------------------------------------------------------------- */
-.icon-close {
+.icon-close,
+.icon-category-disabled {
   background-image: url("../img/actions/close.svg?v=1"); }
 
 .oc-dialog-close {
   background: url("../img/actions/close.svg") no-repeat center; }
+
+/* Close (no shadow) -------------------------------------------------------- */
+.icon-category-disabled {
+  background-image: url("../img/actions/close-ns.svg"); }
 
 /* Menu --------------------------------------------------------------------- */
 .icon-menu {
   background-image: url("../img/actions/menu.svg?v=1"); }
 
 /* User --------------------------------------------------------------------- */
-.nav-icon-personal-settings {
+.nav-icon-personal-settings,
+.icon-category-installed {
   background-image: url("../img/actions/user.svg?v=1"); }
 
 /* Right Arrow -------------------------------------------------------------- */
-.glyphicon-chevron-right {
+.icon-view-next {
+  background-image: url("../img/actions/arrow-right.svg"); }
+
+/* Left Arrow _-------------------------------------------------------------- */
+.icon-view-previous {
+  background-image: url("../img/actions/arrow-left.svg"); }
+
+/* Right Arrow Big ---------------------------------------------------------- */
+.icon-view-next,
+.glyphicon-chevron-right,
+.ui-widget.ui-datepicker .ui-widget-header .ui-icon.ui-icon-circle-triangle-e {
   background: url("../img/rightarrow.svg") center center no-repeat; }
 
-/* Left Arrow --------------------------------------------------------------- */
-.glyphicon-chevron-left {
+/* Left Arrow Big--------------------------------------------------------------- */
+.glyphicon-chevron-left,
+.ui-widget.ui-datepicker .ui-widget-header .ui-icon.ui-icon-circle-triangle-w {
   background: url("../img/leftarrow.svg") center center no-repeat; }
 
 /* Change ------------------------------------------------------------------- */
@@ -240,10 +268,22 @@ select {
 .icon-edit {
   background-image: url("../img/actions/edit.svg?v=1"); }
 
+/* Quota -------------------------------------------------------------------- */
+.nav-icon-quota {
+  background-image: url("../img/actions/quota.svg?v=1"); }
+
 /* Mail --------------------------------------------------------------------- */
 .icon-mail,
 .icon-social-email {
   background-image: url("../img/email.svg"); }
+
+/* Calendar ----------------------------------------------------------------- */
+.icon-badge {
+  background-image: url("../img/places/calendar.svg"); }
+
+/* Play --------------------------------------------------------------------- */
+.icon-play {
+  background-image: url("../img/actions/play.svg"); }
 
 /* Play Big ----------------------------------------------------------------- */
 .play-pause,
@@ -298,15 +338,49 @@ select {
 .icon-audio-off-white {
   background-image: url("../img/actions/audio-off.svg"); }
 
-/* Screen -------------------------------------------------------------------- */
+/* Screen ------------------------------------------------------------------- */
 .icon-screen,
 .icon-screen-white {
   background-image: url("../img/actions/screen.svg"); }
 
-/* Screen off ---------------------------------------------------------------- */
+/* Screen off --------------------------------------------------------------- */
 .icon-screen-off,
 .icon-screen-off-white {
   background-image: url("../img/actions/screen-off.svg"); }
+
+/* App Categories ----------------------------------------------------------- */
+.icon-category-app-bundles {
+  background-image: url("../img/categories/bundles.svg?v=1"); }
+
+.icon-category-customization {
+  background-image: url("../img/categories/customization.svg?v=1"); }
+
+.icon-category-files {
+  background-image: url("../img/categories/files.svg?v=1"); }
+
+.icon-category-games {
+  background-image: url("../img/categories/games.svg?v=1"); }
+
+.icon-category-integration {
+  background-image: url("../img/categories/integration.svg?v=1"); }
+
+.icon-category-monitoring {
+  background-image: url("../img/categories/monitoring.svg?v=1"); }
+
+.icon-category-multimedia {
+  background-image: url("../img/categories/multimedia.svg?v=1"); }
+
+.icon-category-office {
+  background-image: url("../img/categories/office.svg?v=1"); }
+
+.icon-category-organization {
+  background-image: url("../img/categories/organization.svg?v=1"); }
+
+.icon-category-security {
+  background-image: url("../img/actions/password.svg?v=1"); }
+
+.icon-category-social {
+  background-image: url("../img/categories/social.svg?v=1"); }
 
 /* Activity App ------------------------------------------------------------- */
 .icon-activity,
@@ -316,6 +390,10 @@ select {
 /* Calendar App ------------------------------------------------------------- */
 .icon-timezone {
   background: url("../img/actions/timezone.svg") center center no-repeat; }
+
+/* Deck App ----------------------------------------------------------------- */
+.icon-deck {
+  background: url("../img/deck.svg"); }
 
 /* News App ----------------------------------------------------------------- */
 .icon-unpinned,
@@ -389,6 +467,11 @@ select {
 .sm2-inline-button.shuffle {
   filter: invert(95%); }
 
+.icon-white {
+  filter: unset; }
+  .icon-white.icon-shadow {
+    filter: unset; }
+
 #navigation .app-icon {
   filter: none; }
   #navigation .app-icon image {
@@ -396,17 +479,6 @@ select {
 
 img.notification-icon {
   filter: invert(75%); }
-
-#controls .button.view-switcher img {
-  opacity: 0.6;
-  filter: invert(95%); }
-
-#controls .button.view-switcher.gallery img {
-  filter: invert(0%); }
-
-.app-files #app-content-files #controls .breadcrumb .crumb a img.svg,
-.app-files #app-content-trashbin #controls .breadcrumb .crumb a img.svg {
-  filter: invert(95%); }
 
 #controls #breadcrumbs .crumb a img {
   filter: invert(95%); }
@@ -429,10 +501,16 @@ a.impersonate img.svg {
 
 .app-settings #app-navigation img[src$="/img/app-dark.svg"] {
   filter: invert(95%); }
+.app-settings #app-navigation img[src$="/settings/img/password.svg"] {
+  filter: invert(95%); }
 .app-settings #apps-list .app-image image {
   filter: invert(5%); }
 .app-settings #apps-list #app-user_saml .app-image image {
   filter: none; }
+.app-settings #personal-settings .federationScopeMenu ul li a img[src$="/core/img/actions/password.svg"],
+.app-settings #personal-settings .federationScopeMenu ul li a img[src$="/core/img/places/contacts-dark.svg"],
+.app-settings #personal-settings .federationScopeMenu ul li a img[src$="/core/img/places/link.svg"] {
+  filter: invert(95%); }
 
 body {
   color: #eff0f1;
@@ -488,6 +566,7 @@ input.checkbox[type="radio"]:indeterminate + label::before {
 input:not([type="range"]),
 textarea,
 #quota,
+div[contenteditable="true"],
 .pager li a {
   background-color: #232629;
   color: #bdc3c7;
@@ -495,6 +574,7 @@ textarea,
   input:not([type="range"]):not(:disabled):not(.primary):not(#quota):hover,
   textarea:not(:disabled):not(.primary):not(#quota):hover,
   #quota:not(:disabled):not(.primary):not(#quota):hover,
+  div[contenteditable="true"]:not(:disabled):not(.primary):not(#quota):hover,
   .pager li a:not(:disabled):not(.primary):not(#quota):hover {
     border-color: #3daee9; }
   input:not([type="range"]):not(:disabled):not(.primary):focus, input:not([type="range"]):not(:disabled):not(.primary):active,
@@ -502,6 +582,8 @@ textarea,
   textarea:not(:disabled):not(.primary):active,
   #quota:not(:disabled):not(.primary):focus,
   #quota:not(:disabled):not(.primary):active,
+  div[contenteditable="true"]:not(:disabled):not(.primary):focus,
+  div[contenteditable="true"]:not(:disabled):not(.primary):active,
   .pager li a:not(:disabled):not(.primary):focus,
   .pager li a:not(:disabled):not(.primary):active {
     background-color: #232629;
@@ -509,11 +591,20 @@ textarea,
   input:not([type="range"]):not(:disabled):not(.primary).active,
   textarea:not(:disabled):not(.primary).active,
   #quota:not(:disabled):not(.primary).active,
+  div[contenteditable="true"]:not(:disabled):not(.primary).active,
   .pager li a:not(:disabled):not(.primary).active {
+    border-color: #3daee9; }
+  input:not([type="range"]):not(:disabled):hover,
+  textarea:not(:disabled):hover,
+  #quota:not(:disabled):hover,
+  div[contenteditable="true"]:not(:disabled):hover,
+  .pager li a:not(:disabled):hover {
+    background-color: #232629;
     border-color: #3daee9; }
   input:not([type="range"]):disabled,
   textarea:disabled,
   #quota:disabled,
+  div[contenteditable="true"]:disabled,
   .pager li a:disabled {
     background-color: #4d4d4d;
     color: #bdc3c7;
@@ -525,10 +616,17 @@ textarea,
     #quota:disabled:hover,
     #quota:disabled:focus,
     #quota:disabled:active,
+    div[contenteditable="true"]:disabled:hover,
+    div[contenteditable="true"]:disabled:focus,
+    div[contenteditable="true"]:disabled:active,
     .pager li a:disabled:hover,
     .pager li a:disabled:focus,
     .pager li a:disabled:active {
       border-color: #706f6e; }
+
+div[contenteditable="true"]:not(:disabled):hover, div[contenteditable="true"]:not(:disabled):active, div[contenteditable="true"]:not(:disabled):focus {
+  background-color: #232629 !important;
+  border-color: #3daee9 !important; }
 
 textarea:active:not(:disabled), textarea:hover:not(:disabled), textarea:focus:not(:disabled) {
   border-color: #3daee9 !important;
@@ -668,6 +766,11 @@ input[type="button"] {
 /* Header ------------------------------------------------------------------- */
 #header .logo, #header .logo-icon {
   background-image: url("../img/logo.svg"); }
+#header .menu {
+  background-color: #31363b;
+  filter: unset; }
+  #header .menu::after {
+    border-bottom-color: #706f6e; }
 
 #body-user #header, #body-settings #header, #body-public #header {
   background-color: #31363b; }
@@ -684,14 +787,12 @@ input[type="button"] {
 
 /* Controls ----------------------------------------------------------------- */
 #controls {
-  background-color: #31363b; }
-
-#app-navigation + #app-content #controls {
-  margin-top: 1px; }
+  background-color: #31363b;
+  height: unset; }
 
 /* Breadcrumbs -------------------------------------------------------------- */
 div.crumb a, div.crumb > span {
-  color: #bdc3c7; }
+  color: #eff0f1; }
 
 div.crumb:hover, div.crumb:focus, div.crumb a:focus, div.crumb:active {
   -ms-filter: none;
@@ -716,11 +817,19 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
 #emptycontent, .emptycontent {
   color: #bdc3c7; }
 
-.popovermenu li .menuitem {
-  color: #bdc3c7;
-  opacity: 0.7; }
-  .popovermenu li .menuitem:hover {
-    color: #fcfcfc; }
+.popovermenu {
+  background-color: #31363b;
+  color: #eff0f1;
+  border: 1px solid #706f6e; }
+  .popovermenu::after {
+    border-bottom-color: #706f6e; }
+  .popovermenu li > a {
+    color: #eff0f1; }
+  .popovermenu li .menuitem {
+    color: #bdc3c7;
+    opacity: 0.7; }
+    .popovermenu li .menuitem:hover {
+      color: #fcfcfc; }
 
 .bubble, .app-navigation-entry-menu {
   background-color: #31363b;
@@ -742,6 +851,8 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
     border-bottom-color: #706f6e; }
   #expanddiv a {
     color: #eff0f1; }
+    #expanddiv a:hover {
+      background-color: rgba(61, 174, 233, 0.25); }
 
 #body-settings #expand::before {
   border-bottom-color: #706f6e; }
@@ -795,11 +906,10 @@ span.success {
 /* Quota -------------------------------------------------------------------- */
 #quota {
   color: #eff0f1;
-  border: none; }
-  #quota div {
+  border: none;
+  border-radius: 3px; }
+  #quota progress {
     background-color: rgba(61, 174, 233, 0.25); }
-    #quota div.quota-warning {
-      background-color: #f67400; }
 
 #app-navigation #quota {
   background-color: #31363b;
@@ -824,9 +934,8 @@ span.success {
     box-shadow: none; }
 
 /* Personal Settings -------------------------------------------------------- */
-#sessions .token-list td, #apppasswords .token-list td {
-  border-color: #706f6e;
-  border-top: none; }
+#security .token-list td {
+  border-top-color: #706f6e; }
 
 /* App Store ---------------------------------------------------------------- */
 .app-level span {
@@ -987,6 +1096,22 @@ ul.multiselectoptions {
   background-color: #232629;
   border: 1px solid #706f6e; }
 
+/* Auto suggestion users in comments dropdown ------------------------------- */
+.atwho-view {
+  background: #31363b;
+  color: #eff0f1;
+  border-color: #706f6e;
+  box-shadow: none; }
+  .atwho-view .cur {
+    background: rgba(61, 174, 233, 0.25);
+    color: #eff0f1; }
+    .atwho-view .cur strong {
+      color: #eff0f1; }
+  .atwho-view ul li {
+    border-bottom-color: #706f6e; }
+  .atwho-view strong {
+    color: #eff0f1; }
+
 /* Upload Progress ---------------------------------------------------------- */
 #uploadprogresswrapper #uploadprogressbar .label.outer, #uploadprogresswrapper #uploadprogressbar .label.inner {
   color: #eff0f1; }
@@ -1016,73 +1141,80 @@ ul.multiselectoptions {
   color: #eff0f1;
   border: none; }
 
-.ui-datepicker,
-.ui-datepicker-title,
-.ui-datepicker .ui-widget-header,
-.ui-timepicker,
-.ui-timepicker-title,
-.ui-timepicker .ui-widget-header {
-  color: #eff0f1; }
+.ui-widget.ui-datepicker {
+  filter: none;
+  border: 1px solid #706f6e; }
+  .ui-widget.ui-datepicker::after {
+    border-bottom-color: #706f6e; }
+  .ui-widget.ui-datepicker .ui-widget-header {
+    background-color: #31363b;
+    color: #eff0f1; }
+    .ui-widget.ui-datepicker .ui-widget-header .ui-icon {
+      opacity: 1; }
+    .ui-widget.ui-datepicker .ui-widget-header .ui-datepicker-prev, .ui-widget.ui-datepicker .ui-widget-header .ui-datepicker-next {
+      border-color: #706f6e;
+      background: #31363b; }
+  .ui-widget.ui-datepicker .ui-datepicker-calendar th {
+    color: #eff0f1;
+    opacity: 0.7; }
+  .ui-widget.ui-datepicker .ui-datepicker-calendar tr td > * {
+    color: #eff0f1; }
+  .ui-widget.ui-datepicker .ui-datepicker-calendar td .ui-priority-secondary:not(.ui-state-hover) {
+    color: #bdc3c7;
+    opacity: 0.5; }
+  .ui-widget.ui-datepicker .ui-datepicker-calendar td.ui-datepicker-week-end:not(.ui-state-disabled) :not(.ui-state-hover):not(.ui-state-active) {
+    color: #3daee9;
+    opacity: 1; }
+  .ui-widget.ui-datepicker .ui-datepicker-calendar td.ui-datepicker-week-end:not(.ui-state-disabled) .ui-priority-secondary:not(.ui-state-hover) {
+    color: #3daee9;
+    opacity: 0.7; }
+  .ui-widget.ui-datepicker .ui-datepicker-calendar td.ui-datepicker-current-day:not(.ui-state-disabled) a.ui-state-active, .ui-widget.ui-datepicker .ui-datepicker-calendar td .ui-state-hover,
+  .ui-widget.ui-datepicker .ui-datepicker-calendar td .ui-state-focus {
+    background-color: #3daee9;
+    color: #fcfcfc; }
+  .ui-widget.ui-datepicker .ui-datepicker-calendar td.ui-datepicker-today a:not(.ui-state-hover) {
+    background-color: #4d4d4d; }
 
-.ui-datepicker table a.ui-state-default,
-.ui-timepicker table a.ui-state-default {
-  color: #eff0f1;
-  border-radius: 3px 3px 3px 3px;
-  border: 1px solid #706f6e;
-  background: #232629;
-  font-weight: bold; }
+.ui-widget.ui-timepicker {
+  filter: none;
+  background-color: #31363b;
+  border: 1px solid #706f6e; }
+  .ui-widget.ui-timepicker::after {
+    border-bottom-color: #706f6e; }
+  .ui-widget.ui-timepicker .ui-widget-header {
+    background-color: #31363b;
+    color: #eff0f1; }
+  .ui-widget.ui-timepicker table.ui-timepicker tr td > * {
+    color: #eff0f1; }
+  .ui-widget.ui-timepicker .ui-timepicker-table th {
+    color: #bdc3c7;
+    opacity: 0.7%; }
+  .ui-widget.ui-timepicker .ui-timepicker-table td.ui-timepicker-hours {
+    border-right-color: #706f6e; }
+  .ui-widget.ui-timepicker .ui-timepicker-table td.ui-timepicker-hour-cell a.ui-state-active,
+  .ui-widget.ui-timepicker .ui-timepicker-table td.ui-timepicker-minute-cell a.ui-state-active,
+  .ui-widget.ui-timepicker .ui-timepicker-table td .ui-state-hover,
+  .ui-widget.ui-timepicker .ui-timepicker-table td .ui-state-focus {
+    background-color: #3daee9;
+    color: #fcfcfc; }
 
-.ui-datepicker table a.ui-state-default:hover,
-.ui-timepicker table a.ui-state-default:hover {
-  background: rgba(61, 174, 233, 0.25); }
-
-.ui-priority-secondary,
-.ui-widget-content .ui-priority-secondary,
-.ui-widget-header .ui-priority-secondary {
-  opacity: .5;
-  filter: Alpha(Opacity=50);
-  font-weight: normal; }
-
-.ui-datepicker-calendar tbody tr:hover, .ui-datepicker-calendar tbody tr:focus, .ui-datepicker-calendar tbody tr:active, .ui-timepicker tbody tr:hover, .ui-timepicker tbody tr:focus, .ui-timepicker tbody tr:active {
-  background-color: inherit; }
-
-.ui-datepicker-prev,
-.ui-datepicker-next {
-  border: 1px solid #706f6e;
-  background: #31363b; }
-
-.ui-datepicker .ui-datepicker-next-hover,
-.ui-datepicker .ui-datepicker-prev-hover {
-  background: #31363b;
-  border-color: #3daee9; }
-
-div.ui-datepicker, div.ui-timepicker {
-  background: #31363b;
-  border-radius: 4px 4px 4px 4px;
-  box-shadow: none;
-  color: #eff0f1; }
-
-.ui-datepicker table a.ui-state-active,
-.ui-timepicker table a.ui-state-active {
-  background: #3daee9;
-  border-radius: 3px 3px 3px 3px;
-  color: #fcfcfc;
-  text-shadow: none; }
-
+.ui-widget.ui-timepicker .ui-timepicker-table th
 #app-sidebar div.content-wrapper .body .section input.focus {
   background-color: #232629;
   border: 1px solid #706f6e;
   box-shadow: none; }
 
 /* Tooltips ----------------------------------------------------------------- */
-.tooltip.right .tooltip-arrow {
-  border-right-color: #706f6e; }
-.tooltip.left .tooltip-arrow {
-  border-left-color: #706f6e; }
-.tooltip.top .tooltip-arrow, .tooltip.top-left .tooltip-arrow, .tooltip.top-right .tooltip-arrow {
-  border-top-color: #706f6e; }
-.tooltip.bottom .tooltip-arrow, .tooltip.bottom-left .tooltip-arrow, .tooltip.bottom-right .tooltip-arrow {
-  border-bottom-color: #706f6e; }
+.tooltip {
+  filter: none; }
+  .tooltip.right .tooltip-arrow {
+    border-right-color: #706f6e; }
+  .tooltip.left .tooltip-arrow {
+    border-left-color: #706f6e; }
+  .tooltip.top .tooltip-arrow, .tooltip.top-left .tooltip-arrow, .tooltip.top-right .tooltip-arrow {
+    border-top-color: #706f6e; }
+  .tooltip.bottom .tooltip-arrow, .tooltip.bottom-left .tooltip-arrow, .tooltip.bottom-right .tooltip-arrow {
+    border-bottom-color: #706f6e; }
 
 .tooltip-inner {
   background-color: #31363b;
@@ -1145,15 +1277,15 @@ div.ui-datepicker, div.ui-timepicker {
 #app-navigation {
   background-color: #31363b;
   border-color: #706f6e; }
-  #app-navigation li > a {
+  #app-navigation ul > li > a, #app-navigation li > a {
     color: #eff0f1;
     opacity: 1; }
-    #app-navigation li > a:hover {
+    #app-navigation ul > li > a:hover, #app-navigation ul > li > a:hover + div.app-navigation-entry-utils, #app-navigation li > a:hover, #app-navigation li > a:hover + div.app-navigation-entry-utils {
       background-color: rgba(61, 174, 233, 0.25); }
   #app-navigation .active {
     background-color: #3daee9;
     box-shadow: inset 2px 0 #1d99f3; }
-    #app-navigation .active a {
+    #app-navigation .active > a {
       color: #fcfcfc;
       font-weight: 600; }
   #app-navigation .app-external {
@@ -1176,9 +1308,15 @@ div.ui-datepicker, div.ui-timepicker {
       opacity: 1;
       box-shadow: inset 2px 0 #1d99f3; }
 
+.app-navigation-entry-menu li > button {
+  color: #eff0f1; }
+  .app-navigation-entry-menu li > button:hover {
+    background-color: rgba(61, 174, 233, 0.25); }
+
 .nav-trashbin {
   background-color: #31363b;
-  border-color: #706f6e; }
+  border-color: #706f6e;
+  border-right: 1px solid #706f6e; }
 
 /* App Sidebar -------------------------------------------------------------- */
 #app-sidebar {
@@ -1233,7 +1371,11 @@ div.ui-datepicker, div.ui-timepicker {
     color: #eff0f1; }
 
 .settings-button {
-  background-color: #31363b; }
+  background-color: #31363b;
+  color: #eff0f1;
+  opacity: 1; }
+  .settings-button.opened {
+    background-color: #31363b; }
   .settings-button:hover {
     background-color: rgba(61, 174, 233, 0.25); }
   .settings-button:focus, .settings-button:active {
@@ -1270,10 +1412,12 @@ div.ui-datepicker, div.ui-timepicker {
 .app-calendar #app-navigation .active {
   background-color: inherit; }
 .app-calendar #app-navigation .new-entity {
-  color: #eff0f1; }
+  color: #eff0f1;
+  opacity: 0.7; }
   .app-calendar #app-navigation .new-entity:hover {
     background-color: rgba(61, 174, 233, 0.25);
-    color: #eff0f1; }
+    color: #eff0f1;
+    opacity: 1; }
 .app-calendar #app-navigation .app-navigation-entry-menu {
   background-color: #31363b;
   color: #eff0f1;
@@ -1285,6 +1429,9 @@ div.ui-datepicker, div.ui-timepicker {
   filter: none; }
   .app-calendar #app-navigation .app-navigation-entry-menu::after {
     border-bottom-color: #706f6e; }
+.app-calendar #app-navigation .app-navigation-entry-edit,
+.app-calendar #app-navigation .app-navigation-entry-deleted {
+  background-color: #31363b; }
 .app-calendar #app-navigation .togglebuttons .button.active {
   color: #eff0f1;
   box-shadow: none; }
@@ -1303,6 +1450,8 @@ div.ui-datepicker, div.ui-timepicker {
 
 .fc-unthemed th, .fc-unthemed td, .fc-unthemed thead, .fc-unthemed tbody, .fc-unthemed .fc-divider, .fc-unthemed .fc-row, .fc-unthemed .fc-popover {
   border-color: #706f6e; }
+.fc-unthemed .fc-divider, .fc-unthemed .fc-popover .fc-header, .fc-unthemed .fc-list-heading td {
+  background-color: #4d4d4d; }
 
 #fullcalendar {
   background-color: #232629; }
@@ -1513,7 +1662,8 @@ tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus s
   color: #bdc3c7; }
 
 td.date, td.date > span {
-  color: #bdc3c7 !important; }
+  color: #bdc3c7 !important;
+  opacity: 1; }
 
 #app-content-systemtagsfilter #controls input[type="text"] {
   height: 34px;
@@ -1529,6 +1679,10 @@ td.date, td.date > span {
   color: #eff0f1; }
   #fileList .popovermenu .action:hover, #fileList .popovermenu .action:focus, #fileList .popovermenu .action:active {
     color: #fcfcfc; }
+#fileList tr td.selection > .selectCheckBox + label::before {
+  opacity: 0.5; }
+#fileList .fileActionsMenu a.action:hover {
+  background-color: rgba(61, 174, 233, 0.25); }
 
 #controls .button.view-switcher {
   background-color: #31363b;
@@ -1649,6 +1803,9 @@ td.date, td.date > span {
   opacity: 1; }
 
 /* Text Editor -------------------------------------------------------------- */
+#editor_container {
+  background-color: #706f6e; }
+
 #editor_controls {
   background-color: #31363b; }
   #editor_controls small.filename {
@@ -1661,6 +1818,24 @@ td.date, td.date > span {
       background-color: rgba(61, 174, 233, 0.25); }
     #editor_controls #editor_close:active, #editor_controls #editor_close:focus {
       background-color: #3daee9; }
+
+.ace-clouds {
+  background-color: #31363b !important;
+  color: #eff0f1 !important; }
+  .ace-clouds .ace_gutter {
+    color: #bdc3c7 !important;
+    background-color: #31363b !important;
+    opacity: 1 !important; }
+    .ace-clouds .ace_gutter .ace_gutter-cell {
+      opacity: 0.7; }
+  .ace-clouds .ace_gutter-active-line {
+    background-color: rgba(61, 174, 233, 0.25) !important; }
+  .ace-clouds .ace_marker-layer .ace_active-line {
+    background: #31363b !important; }
+  .ace-clouds .ace_marker-layer .ace_selection {
+    background: rgba(61, 174, 233, 0.25) !important; }
+  .ace-clouds .ace_cursor {
+    color: #eff0f1 !important; }
 
 /* Two Factor U2F */
 .two-factor-link .button {
@@ -1742,6 +1917,9 @@ td.date, td.date > span {
   box-shadow: none; }
   #phototools img {
     filter: invert(95%); }
+
+#audio-settings li.audio-settings-item {
+  opacity: 1; }
 
 #bm_import:hover ~ button#bm_import_submit {
   background-color: #31363b;
@@ -1859,6 +2037,12 @@ textarea.message-body {
 .mail-message-attachments .attachments .attachment-download {
   opacity: 1;
   border-color: transparent; }
+
+#app-navigation > ul > .navigation-account > li > a,
+#app-navigation > ul > .navigation-account > .folders > li > a,
+#app-navigation > ul > .navigation-account > .folders > li > .folders > .folders > li > a {
+  color: #eff0f1;
+  opacity: 0.75; }
 
 #explore .category {
   background-color: #3daee9; }
@@ -2349,6 +2533,8 @@ div.percentdone {
       background-color: rgba(61, 174, 233, 0.25); }
     #music-controls .progress-info .seek-bar .play-bar {
       background-color: #3daee9; }
+  #music-controls img.control {
+    filter: invert(95%); }
 
 button#deleteaccount {
   background-color: #da4453; }
@@ -2373,5 +2559,61 @@ button#deleteaccount {
   background-color: #31363b; }
 .app-flowupload .table-hover tbody tr:hover > td {
   background-color: rgba(61, 174, 233, 0.25); }
+
+#app-navigation .editing .app-navigation-entry-edit {
+  background: #31363b;
+  border-right: 1px solid #706f6e; }
+
+#boardlist td {
+  border-bottom-color: #706f6e; }
+#boardlist thead td {
+  opacity: 1; }
+#boardlist tbody .board-create td {
+  border-bottom: none; }
+
+.board-header-controls #stack-add {
+  background-color: #232629;
+  border: 1px solid #706f6e; }
+  .board-header-controls #stack-add:hover {
+    border-color: #3daee9; }
+
+#board-detail-labels ul li .label-edit input {
+  color: #eff0f1 !important; }
+#board-detail-labels ul li .label-edit.ng-scope input {
+  color: #000000 !important; }
+
+#sidebar-header h3 {
+  background-color: #31363b; }
+
+.labels .label-edit input {
+  border-bottom-color: #706f6e; }
+
+.stack {
+  border-right-color: #706f6e; }
+
+#board .card {
+  background-color: #31363b;
+  border: 1px solid #706f6e;
+  box-shadow: none; }
+  #board .card:hover {
+    border-color: #3daee9; }
+  #board .card .card-controls {
+    background-color: #232629; }
+    #board .card .card-controls .due {
+      opacity: 0.7; }
+#board.card-selected .card.current {
+  opacity: 1;
+  box-shadow: none;
+  border-color: #3daee9; }
+
+#card-meta #card-dates {
+  opacity: 0.7; }
+#card-meta .section-header {
+  border-bottom-color: #706f6e; }
+#card-meta .card-description.section-content .container {
+  background-color: #31363b; }
+#card-meta .save-indicator.unsaved {
+  background-color: #4d4d4d;
+  color: #eff0f1; }
 
 /*# sourceMappingURL=server.css.map */
