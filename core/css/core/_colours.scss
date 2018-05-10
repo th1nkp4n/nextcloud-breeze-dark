@@ -11,7 +11,7 @@ $background-active-hover: rgba(61, 174, 233, 0.25);
 $background-alternate: rgba(77, 77, 77, 1);
 $background-dark: rgba(35, 38, 41, 1);
 $background-normal: rgba(49, 54, 59, 1);
-$background-negative: rgba(34, 38, 41, 1);
+$background-negative: rgba(35, 38, 41, 1); //#232629
 $background-neutral: rgba(246, 116, 0, 1);
 $background-positive: rgba(39, 174, 96, 1);
 
@@ -21,10 +21,10 @@ $decoration-active: rgba(61, 174, 233, 1);
 $foreground-active: rgba(252, 252, 252, 1);
 $foreground-inactive: rgba(189, 195, 199, 1);
 $foreground-link: rgba(41, 128, 185, 1);
-$foreground-normal: rgba(239, 240, 241, 1);
+$foreground-normal: rgba(35, 38, 41, 1); //#232629 formerly #eff0f1
 $foreground-background: rgba(189, 195, 199, 0.6);
 
-$foreground-negative: rgba(34, 38, 41, 1);
+$foreground-negative: rgba(35, 38, 41, 1); //#232629
 $foreground-neutral: rgba(246, 116, 0, 1);
 $foreground-positive: rgba(39, 174, 96, 1);
 $foreground-visited: rgba(127, 140, 141, 1);
