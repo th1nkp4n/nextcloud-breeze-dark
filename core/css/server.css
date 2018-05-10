@@ -5,8 +5,8 @@
 * Check it out at https://github.com/mwalbeck/nextcloud-breeze-dark
 =============================================================================
 */
-/* 
- * 
+/*
+ *
  * All the colours for the Nextcloud Breeze Dark Theme.
  *
 */
@@ -679,16 +679,16 @@ table th a:hover, table th a:focus, table a:hover, table a:focus {
   color: #eff0f1;
 }
 table td {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 table thead th {
   color: #eff0f1;
-  border-bottom: 1px solid #121416;
+  border-bottom: 1px solid #2d3237;
   background-color: #31363b;
 }
 
 table.grid th, table.grid td {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 
 input.radio[type=checkbox]:checked + label::before, input.radio[type=checkbox]:indeterminate + label::before,
@@ -709,7 +709,7 @@ div[contenteditable=true],
 .pager li a {
   background-color: #232629;
   color: #bdc3c7;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 input:not([type=range]):not(:disabled):not(.primary):not(#quota):hover,
 textarea:not(:disabled):not(.primary):not(#quota):hover,
@@ -767,7 +767,7 @@ div[contenteditable=true]:disabled:active,
 .pager li a:disabled:hover,
 .pager li a:disabled:focus,
 .pager li a:disabled:active {
-  border-color: #121416;
+  border-color: #2d3237;
 }
 
 div[contenteditable=true]:not(:disabled):hover, div[contenteditable=true]:not(:disabled):active, div[contenteditable=true]:not(:disabled):focus {
@@ -786,7 +786,7 @@ button,
 input[type=submit],
 input[type=button] {
   background-color: #31363b;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   color: #eff0f1;
 }
 select:not(:disabled):not(.primary):not(#quota):hover,
@@ -835,14 +835,14 @@ input[type=button]:disabled:hover,
 input[type=button]:disabled:focus,
 input[type=button]:disabled:active {
   background-color: #4d4d4d;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 select.primary:not(:disabled),
 button.primary:not(:disabled),
 .button.primary:not(:disabled),
 input[type=submit].primary:not(:disabled),
 input[type=button].primary:not(:disabled) {
-  border-color: #121416;
+  border-color: #2d3237;
   background-color: #232629;
   color: #fcfcfc;
 }
@@ -889,14 +889,14 @@ input[type=button].primary:disabled:focus,
 input[type=button].primary:disabled:active {
   background-color: #4d4d4d;
   color: #bdc3c7;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 
 /* jQuery UI Fixes ---------------------------------------------------------- */
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-  border-color: #121416;
+  border-color: #2d3237;
   background: none;
   background-color: #31363b;
   font-weight: bold;
@@ -937,7 +937,7 @@ input[type=button].primary:disabled:active {
   filter: unset;
 }
 #header .menu::after {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 
 #body-user #header, #body-settings #header, #body-public #header {
@@ -984,17 +984,17 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
 .menu {
   box-shadow: none;
   background-color: #31363b;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 .menu::after {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 
 #contactsmenu .menutoggle:hover {
   opacity: 1;
 }
 #contactsmenu > .menu .contact {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 #contactsmenu > .menu .content .footer a {
   opacity: 1;
@@ -1007,10 +1007,10 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
 .popovermenu {
   background-color: #31363b;
   color: #eff0f1;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 .popovermenu::after {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 .popovermenu li > a {
   color: #eff0f1;
@@ -1026,7 +1026,7 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
 .bubble, .app-navigation-entry-menu {
   background-color: #31363b;
   color: #eff0f1;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   -webkit-filter: none;
   -moz-filter: none;
   -ms-filter: none;
@@ -1034,16 +1034,16 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
   filter: none;
 }
 .bubble::after, .app-navigation-entry-menu::after {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 
 #expanddiv {
   background-color: #31363b;
   box-shadow: none;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 #expanddiv::after {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 #expanddiv a {
   color: #eff0f1;
@@ -1053,16 +1053,16 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
 }
 
 #body-settings #expand::before {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 
 #navigation {
   background-color: #31363b;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   box-shadow: none;
 }
 #navigation::after {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 #navigation a span {
   color: #eff0f1;
@@ -1076,17 +1076,17 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
 #postsetupchecks .errors,
 #postsetupchecks .warnings,
 #security-warning > ul {
-  color: #da4453;
+  color: #222629;
 }
 
 #body-user .warning {
-  color: #da4453;
+  color: #222629;
   background-color: #31363b;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 
 #body-settings .warning {
-  background: #da4453;
+  background: #222629;
 }
 
 .success {
@@ -1094,10 +1094,10 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
 }
 
 span.warnings {
-  background-color: #da4453;
+  background-color: #222629;
 }
 span.error {
-  background-color: #da4453;
+  background-color: #222629;
 }
 span.success {
   background-color: #27ae60;
@@ -1105,11 +1105,11 @@ span.success {
 
 .msg.warnings {
   color: #fcfcfc;
-  background-color: #da4453;
+  background-color: #222629;
 }
 .msg.error {
   color: #fcfcfc;
-  background-color: #da4453;
+  background-color: #222629;
 }
 .msg.success {
   color: #fcfcfc;
@@ -1128,12 +1128,12 @@ span.success {
 
 #app-navigation #quota {
   background-color: #31363b;
-  border-right: 1px solid #121416;
+  border-right: 1px solid #2d3237;
 }
 
 #app-content #quota {
   background-color: #232629;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 
 /* General Settings --------------------------------------------------------- */
@@ -1148,7 +1148,7 @@ span.success {
   background-color: #31363b;
   color: #eff0f1;
   box-shadow: none;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 #cropper .inner-container .jcrop-holder {
   box-shadow: none;
@@ -1156,7 +1156,7 @@ span.success {
 
 /* Personal Settings -------------------------------------------------------- */
 #security .token-list td {
-  border-top-color: #121416;
+  border-top-color: #2d3237;
 }
 
 /* App Store ---------------------------------------------------------------- */
@@ -1171,7 +1171,7 @@ span.success {
   opacity: 1;
 }
 #apps-list.installed .section > * {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 #apps-list .app-name {
   font-weight: 600;
@@ -1217,7 +1217,7 @@ select.quota-user option {
   background-color: #4d4d4d;
 }
 #filestable tbody tr.externalErroredRow {
-  background-color: #da4453;
+  background-color: #222629;
 }
 #filestable tbody .name:focus {
   background-color: inherit;
@@ -1228,7 +1228,7 @@ select.quota-user option {
   background-color: #31363b;
   color: #eff0f1;
   box-shadow: none;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 .oc-dialog .fileexists th label {
   color: #eff0f1;
@@ -1242,7 +1242,7 @@ select.quota-user option {
   background-color: #232629;
 }
 #oc-dialog-filepicker-content .filelist td {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 
 #oc-dialog-filepicker-content .filepicker_element_selected {
@@ -1270,7 +1270,7 @@ div.multiselect.active {
 
 ul.multiselectoptions {
   background-color: #31363b;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 ul.multiselectoptions.down {
   -webkit-box-shadow: none;
@@ -1282,11 +1282,11 @@ ul.multiselectoptions.down {
 .select2-container-multi .select2-choices, .select2-container-multi.select2-container-active .select2-choices {
   background-color: #232629;
   color: #eff0f1;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 .select2-container-multi .select2-choices .select2-search-choice, .select2-container-multi.select2-container-active .select2-choices .select2-search-choice {
   background-color: #31363b;
-  border-color: #121416;
+  border-color: #2d3237;
   color: #eff0f1;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -1306,7 +1306,7 @@ ul.multiselectoptions.down {
 .select2-container .select2-choices {
   background-color: #232629;
   color: #eff0f1;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 .select2-container .select2-choices .select2-search-field {
   background: #232629;
@@ -1316,7 +1316,7 @@ ul.multiselectoptions.down {
 }
 .select2-container .select2-choices .select2-search-choice {
   background-color: #31363b;
-  border-color: #121416;
+  border-color: #2d3237;
   color: #eff0f1;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -1327,12 +1327,12 @@ ul.multiselectoptions.down {
 }
 .select2-container .select2-choice {
   background: #232629;
-  border-color: #121416;
+  border-color: #2d3237;
   color: #eff0f1 !important;
 }
 .select2-container .select2-choice .select2-arrow {
   background: #31363b;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 
 #select2-drop, .select2-drop {
@@ -1340,7 +1340,7 @@ ul.multiselectoptions.down {
   color: #eff0f1;
 }
 #select2-drop.select2-drop-active, .select2-drop.select2-drop-active {
-  border-color: #121416;
+  border-color: #2d3237;
 }
 #select2-drop .select2-results .select2-result,
 #select2-drop .select2-results .select2-no-results,
@@ -1365,14 +1365,14 @@ ul.multiselectoptions.down {
 
 .activitysubject strong.systemtag {
   background-color: #232629;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 
 /* Auto suggestion users in comments dropdown ------------------------------- */
 .atwho-view {
   background: #31363b;
   color: #eff0f1;
-  border-color: #121416;
+  border-color: #2d3237;
   box-shadow: none;
 }
 .atwho-view .cur {
@@ -1383,7 +1383,7 @@ ul.multiselectoptions.down {
   color: #eff0f1;
 }
 .atwho-view ul li {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 .atwho-view strong {
   color: #eff0f1;
@@ -1429,7 +1429,7 @@ ul.multiselectoptions.down {
 
 .ui-widget-content {
   background: #31363b;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   color: #eff0f1;
 }
 
@@ -1441,10 +1441,10 @@ ul.multiselectoptions.down {
 
 .ui-widget.ui-datepicker {
   filter: none;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 .ui-widget.ui-datepicker::after {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 .ui-widget.ui-datepicker .ui-widget-header {
   background-color: #31363b;
@@ -1454,7 +1454,7 @@ ul.multiselectoptions.down {
   opacity: 1;
 }
 .ui-widget.ui-datepicker .ui-widget-header .ui-datepicker-prev, .ui-widget.ui-datepicker .ui-widget-header .ui-datepicker-next {
-  border-color: #121416;
+  border-color: #2d3237;
   background: #31363b;
 }
 .ui-widget.ui-datepicker .ui-datepicker-calendar th {
@@ -1488,10 +1488,10 @@ ul.multiselectoptions.down {
 .ui-widget.ui-timepicker {
   filter: none;
   background-color: #31363b;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 .ui-widget.ui-timepicker::after {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 .ui-widget.ui-timepicker .ui-widget-header {
   background-color: #31363b;
@@ -1505,7 +1505,7 @@ ul.multiselectoptions.down {
   opacity: 0.7%;
 }
 .ui-widget.ui-timepicker .ui-timepicker-table td.ui-timepicker-hours {
-  border-right-color: #121416;
+  border-right-color: #2d3237;
 }
 .ui-widget.ui-timepicker .ui-timepicker-table td.ui-timepicker-hour-cell a.ui-state-active,
 .ui-widget.ui-timepicker .ui-timepicker-table td.ui-timepicker-minute-cell a.ui-state-active,
@@ -1517,7 +1517,7 @@ ul.multiselectoptions.down {
 
 .ui-widget.ui-timepicker .ui-timepicker-table th #app-sidebar div.content-wrapper .body .section input.focus {
   background-color: #232629;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   box-shadow: none;
 }
 
@@ -1526,23 +1526,23 @@ ul.multiselectoptions.down {
   filter: none;
 }
 .tooltip.right .tooltip-arrow {
-  border-right-color: #121416;
+  border-right-color: #2d3237;
 }
 .tooltip.left .tooltip-arrow {
-  border-left-color: #121416;
+  border-left-color: #2d3237;
 }
 .tooltip.top .tooltip-arrow, .tooltip.top-left .tooltip-arrow, .tooltip.top-right .tooltip-arrow {
-  border-top-color: #121416;
+  border-top-color: #2d3237;
 }
 .tooltip.bottom .tooltip-arrow, .tooltip.bottom-left .tooltip-arrow, .tooltip.bottom-right .tooltip-arrow {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 
 .tooltip-inner {
   background-color: #31363b;
   color: #eff0f1;
   box-shadow: none;
-  border: 1px solid #121416 !important;
+  border: 1px solid #2d3237 !important;
   padding: 10px;
 }
 
@@ -1587,7 +1587,7 @@ ul.multiselectoptions.down {
 /* App menu ----------------------------------------------------------------- */
 #appmenu li span {
   background-color: #31363b;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   color: #eff0f1;
   -webkit-filter: none;
   -moz-filter: none;
@@ -1599,12 +1599,12 @@ ul.multiselectoptions.down {
   border-bottom-color: transparent;
 }
 #appmenu li:hover a::before {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 
 /* Content ------------------------------------------------------------------ */
 #app-content {
-  border-top: 1px solid #121416;
+  border-top: 1px solid #2d3237;
   height: 99.8%;
 }
 
@@ -1616,7 +1616,7 @@ ul.multiselectoptions.down {
 /* App Navigation ----------------------------------------------------------- */
 #app-navigation {
   background-color: #31363b;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 #app-navigation ul > li > a, #app-navigation li > a {
   color: #eff0f1;
@@ -1670,14 +1670,14 @@ ul.multiselectoptions.down {
 
 .nav-trashbin {
   background-color: #31363b;
-  border-color: #121416;
-  border-right: 1px solid #121416;
+  border-color: #2d3237;
+  border-right: 1px solid #2d3237;
 }
 
 /* App Sidebar -------------------------------------------------------------- */
 #app-sidebar {
   background-color: #31363b;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 #app-sidebar .file-details {
   color: #eff0f1;
@@ -1701,13 +1701,13 @@ ul.multiselectoptions.down {
   opacity: 0.5;
 }
 .shareTabView .error {
-  color: #da4453;
-  border-color: #da4453;
+  color: #222629;
+  border-color: #222629;
   box-shadow: none;
 }
 
 .versionsTabView li {
-  border-color: #121416;
+  border-color: #2d3237;
 }
 .versionsTabView li:hover {
   background: rgba(61, 174, 233, 0.25);
@@ -1728,12 +1728,12 @@ ul.multiselectoptions.down {
 
 /* App Settings ------------------------------------------------------------- */
 #app-settings-header {
-  border-color: #121416;
+  border-color: #2d3237;
   background-color: #31363b;
 }
 
 #app-settings-content {
-  border-color: #121416;
+  border-color: #2d3237;
   background-color: #31363b;
 }
 #app-settings-content a {
@@ -1787,7 +1787,7 @@ ul.multiselectoptions.down {
 }
 
 #app-content hr {
-  border-color: #121416;
+  border-color: #2d3237;
 }
 
 .app-calendar #app-content {
@@ -1809,7 +1809,7 @@ ul.multiselectoptions.down {
 .app-calendar #app-navigation .app-navigation-entry-menu {
   background-color: #31363b;
   color: #eff0f1;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   -webkit-filter: none;
   -moz-filter: none;
   -ms-filter: none;
@@ -1817,7 +1817,7 @@ ul.multiselectoptions.down {
   filter: none;
 }
 .app-calendar #app-navigation .app-navigation-entry-menu::after {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 .app-calendar #app-navigation .app-navigation-entry-edit,
 .app-calendar #app-navigation .app-navigation-entry-deleted {
@@ -1832,7 +1832,7 @@ ul.multiselectoptions.down {
 }
 .app-calendar #app-navigation #datepickercontainer #datepicker table td button {
   box-shadow: none;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 .app-calendar #app-navigation #datepickercontainer #datepicker table td button:hover {
   background-color: rgba(61, 174, 233, 0.25);
@@ -1846,7 +1846,7 @@ ul.multiselectoptions.down {
 }
 
 .fc-unthemed th, .fc-unthemed td, .fc-unthemed thead, .fc-unthemed tbody, .fc-unthemed .fc-divider, .fc-unthemed .fc-row, .fc-unthemed .fc-popover {
-  border-color: #121416;
+  border-color: #2d3237;
 }
 .fc-unthemed .fc-divider, .fc-unthemed .fc-popover .fc-header, .fc-unthemed .fc-list-heading td {
   background-color: #4d4d4d;
@@ -1862,12 +1862,12 @@ ul.multiselectoptions.down {
   background-color: #31363b;
 }
 #fullcalendar.fc-unthemed tr td {
-  border-top-color: #121416;
+  border-top-color: #2d3237;
 }
 #fullcalendar.fc-unthemed .fc-today {
   background-color: #3daee9 !important;
   color: #fcfcfc;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 #fullcalendar.fc-unthemed .fc-today span.fc-day-number {
   font-weight: 600;
@@ -1882,8 +1882,8 @@ ul.multiselectoptions.down {
 .fc-basic-view .fc-day-top .fc-week-number {
   background-color: #31363b;
   color: #eff0f1;
-  border-right: 1px solid #121416;
-  border-bottom: 1px solid #121416;
+  border-right: 1px solid #2d3237;
+  border-bottom: 1px solid #2d3237;
 }
 
 .fc th,
@@ -1902,13 +1902,13 @@ ul.multiselectoptions.down {
 
 #app-settings .settings-fieldset .settings-upload {
   background-color: #31363b;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 
 .modal-open .modal.popover, .modal-open .modal.import {
   background: #31363b;
   box-shadow: none;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 
 .modal-dialog .modal-content #app-sidebar {
@@ -1919,7 +1919,7 @@ ul.multiselectoptions.down {
   background: #232629 !important;
 }
 .advanced .advanced--button-area {
-  border-color: #121416;
+  border-color: #2d3237;
 }
 
 .advanced--fieldset-attendeelist .advanced--toggler:hover,
@@ -1929,7 +1929,7 @@ ul.multiselectoptions.down {
 
 #circles_list div {
   color: #eff0f1;
-  border-color: #121416;
+  border-color: #2d3237;
   background-color: #31363b;
 }
 #circles_list div:hover {
@@ -1955,7 +1955,7 @@ ul.multiselectoptions.down {
 #mainui #memberslist .entry td {
   color: #eff0f1;
   background: #31363b !important;
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 
 #rightpanel .lightenbg {
@@ -1963,7 +1963,7 @@ ul.multiselectoptions.down {
 }
 
 div.circle {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 div.circle:hover {
   background-color: rgba(61, 174, 233, 0.25);
@@ -1974,14 +1974,14 @@ div.circle .title, div.circle .type, div.circle .owner {
 
 #app-navigation.circles.selected {
   background-color: #232629 !important;
-  border-top: 1px solid #121416;
+  border-top: 1px solid #2d3237;
 }
 #app-navigation.circles .circle.selected {
   background-color: #3daee9;
 }
 
 #members_search_result {
-  border-color: #121416;
+  border-color: #2d3237;
   color: #eff0f1;
   background: #31363b;
 }
@@ -1991,10 +1991,10 @@ div.circle .title, div.circle .type, div.circle .owner {
 
 .app-contacts .app-content-list {
   background-color: #232629;
-  border-right: 1px solid #121416;
+  border-right: 1px solid #2d3237;
 }
 .app-contacts .app-content-list-item {
-  border-color: #121416;
+  border-color: #2d3237;
 }
 .app-contacts .app-content-list-item:first-child {
   border: none;
@@ -2016,7 +2016,7 @@ div.circle .title, div.circle .type, div.circle .owner {
 }
 .app-contacts .contacts-list-count {
   color: #bdc3c7;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 .app-contacts .contact-details-wrapper {
   background-color: #31363b;
@@ -2057,7 +2057,7 @@ div.circle .title, div.circle .type, div.circle .owner {
   opacity: 1;
 }
 .app-contacts .addressBookList input[type=submit].inline-button, .app-contacts .addressBookList input[type=button].inline-button {
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   border-left: none;
 }
 .app-contacts .addressBookList input[type=submit].inline-button:hover, .app-contacts .addressBookList input[type=button].inline-button:hover {
@@ -2086,12 +2086,12 @@ div.circle .title, div.circle .type, div.circle .owner {
 .dropdown {
   background-color: #31363b;
   box-shadow: none;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 
 /* File Access Control ------------------------------------------------------ */
 .workflowengine .operation {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 .workflowengine .operation .check:hover {
   background-color: #31363b;
@@ -2100,7 +2100,7 @@ div.circle .title, div.circle .type, div.circle .owner {
   border-left-color: #f67400;
 }
 .workflowengine .invalid-input {
-  border-color: #da4453;
+  border-color: #222629;
 }
 
 .app-files #app-content {
@@ -2143,7 +2143,7 @@ td.date, td.date > span {
 }
 #app-content-systemtagsfilter .select2-choices {
   background-color: #232629;
-  border-color: #121416;
+  border-color: #2d3237;
   color: #eff0f1;
 }
 
@@ -2165,7 +2165,7 @@ td.date, td.date > span {
 
 #controls .button.view-switcher {
   background-color: #31363b;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 #controls .button.view-switcher:hover {
   border-color: #3daee9;
@@ -2206,7 +2206,7 @@ td.date, td.date > span {
   color: #eff0f1;
 }
 #controls .button.left-switch-button {
-  border-color: #121416;
+  border-color: #2d3237;
 }
 #controls .button.left-switch-button:hover {
   border-color: #3daee9;
@@ -2214,7 +2214,7 @@ td.date, td.date > span {
 #controls .button.view-switcher.gallery {
   background-color: #31363b;
   color: #eff0f1;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 #controls .button.view-switcher.gallery:hover {
   background-color: #31363b;
@@ -2229,11 +2229,11 @@ td.date, td.date > span {
 #dropdown {
   background: #31363b;
   box-shadow: none;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 
 #link {
-  border-color: #121416;
+  border-color: #2d3237;
 }
 
 #slideshow input[type=button]:not(:disabled):not(.primary):not(#quota).next, #slideshow input[type=button]:not(:disabled):not(.primary):not(#quota).previous {
@@ -2248,12 +2248,12 @@ td.date, td.date > span {
 }
 
 #groupfolders-react-root th {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 
 .group-edit {
   background-color: #31363b;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 
 #ldapSettings {
@@ -2268,18 +2268,18 @@ td.date, td.date > span {
 
 /* Log reader --------------------------------------------------------------- */
 #logreader-root table tbody tr td {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
   background-color: #31363b !important;
 }
 #logreader-root table thead th {
   color: #eff0f1;
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 
 /* Notifications ----------------------------------------------------------- */
 #notification {
   background-color: #31363b;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   border-top: none;
 }
 #notification a {
@@ -2288,7 +2288,7 @@ td.date, td.date > span {
 
 .notification-container {
   background-color: #31363b;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 .notification-container .notification-time {
   opacity: 1;
@@ -2302,12 +2302,12 @@ td.date, td.date > span {
 }
 
 .notification:not(:last-child) {
-  border-bottom: 1px solid #121416;
+  border-bottom: 1px solid #2d3237;
 }
 
 /* Retention ---------------------------------------------------------------- */
 #retention #retention-list td {
-  border-color: #121416;
+  border-color: #2d3237;
 }
 
 /* SSO & SAML authentication ------------------------------------------------ */
@@ -2319,7 +2319,7 @@ td.date, td.date > span {
 
 /* Text Editor -------------------------------------------------------------- */
 #editor_container {
-  background-color: #121416;
+  background-color: #2d3237;
 }
 
 #editor_controls {
@@ -2383,7 +2383,7 @@ td.date, td.date > span {
 }
 
 #oca-spreedme-add-room {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 
 #app-navigation-toggle_alternative {
@@ -2447,7 +2447,7 @@ td.date, td.date > span {
   color: #eff0f1;
 }
 #individual-playlist-header .header-indi {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
   color: #eff0f1;
 }
 
@@ -2466,7 +2466,7 @@ td.date, td.date > span {
 
 #phototools {
   background-color: #31363b;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -2485,21 +2485,21 @@ td.date, td.date > span {
 }
 
 .bookmark_single {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 .bookmark_single:hover {
   background-color: rgba(61, 174, 233, 0.25);
 }
 
 .bookmark_single_form {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 .bookmark_single_form .tagit {
   box-shadow: none;
 }
 
 ul.tagit {
-  border-color: #121416;
+  border-color: #2d3237;
 }
 ul.tagit input[type=text] {
   color: #bdc3c7;
@@ -2507,7 +2507,7 @@ ul.tagit input[type=text] {
 ul.tagit li.tagit-choice {
   color: #eff0f1;
   background-color: #31363b;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 ul.tagit li.tagit-choice:hover, ul.tagit li.tagit-choice.remove {
   background-color: #31363b;
@@ -2522,11 +2522,11 @@ ul.tagit li.tagit-choice a.tagLabel:hover, ul.tagit li.tagit-choice a.close .tex
 
 #tag_filter ul.tagit li.tagit-choice {
   background-color: #31363b;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 
 #mail-messages {
-  border-right: 1px solid #121416;
+  border-right: 1px solid #2d3237;
   background-color: #232629;
 }
 
@@ -2544,7 +2544,7 @@ ul.tagit li.tagit-choice a.tagLabel:hover, ul.tagit li.tagit-choice a.close .tex
   background-color: #EEE;
   color: #000;
   padding: 1em;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   border-radius: 3px;
 }
 
@@ -2553,13 +2553,13 @@ ul.tagit li.tagit-choice a.tagLabel:hover, ul.tagit li.tagit-choice a.close .tex
 }
 
 .mail-message-summary {
-  border-top-color: #121416;
+  border-top-color: #2d3237;
 }
 .mail-message-summary:first-child {
   border-top: none;
 }
 .mail-message-summary:last-child {
-  border-bottom: 1px solid #121416;
+  border-bottom: 1px solid #2d3237;
 }
 .mail-message-summary:hover {
   background-color: rgba(61, 174, 233, 0.25);
@@ -2606,14 +2606,14 @@ ul.tagit li.tagit-choice a.tagLabel:hover, ul.tagit li.tagit-choice a.close .tex
 
 input.to, input.cc, input.bcc, input.subject, textarea.message-body {
   border: none;
-  border-top: 1px solid #121416;
+  border-top: 1px solid #2d3237;
 }
 input.to:hover, input.to:focus, input.to:active, input.cc:hover, input.cc:focus, input.cc:active, input.bcc:hover, input.bcc:focus, input.bcc:active, input.subject:hover, input.subject:focus, input.subject:active, textarea.message-body:hover, textarea.message-body:focus, textarea.message-body:active {
-  border-color: #121416 !important;
+  border-color: #2d3237 !important;
 }
 
 textarea.message-body {
-  border-bottom: 1px solid #121416;
+  border-bottom: 1px solid #2d3237;
 }
 
 #setup .toggle-manual-mode {
@@ -2625,7 +2625,7 @@ textarea.message-body {
 }
 
 .mail-message-attachments .attachments > div {
-  border-color: #121416;
+  border-color: #2d3237;
 }
 .mail-message-attachments .attachments > div:hover, .mail-message-attachments .attachments > div span:hover {
   background-color: inherit;
@@ -2646,14 +2646,14 @@ textarea.message-body {
   background-color: #3daee9;
 }
 #explore .grid-item {
-  border-color: #121416;
+  border-color: #2d3237;
 }
 #explore .explore-footer a {
   color: #2980b9;
 }
 
 .app-news #app-navigation li.folder {
-  border-right: 1px solid #121416;
+  border-right: 1px solid #2d3237;
   background: #31363b;
 }
 .app-news #app-navigation > ul > li > a,
@@ -2663,11 +2663,11 @@ textarea.message-body {
 }
 
 .app-news #app-content {
-  border-top: 1px solid #121416;
+  border-top: 1px solid #2d3237;
 }
 .app-news #app-content .item {
   background-color: #232629;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 .app-news #app-content .item.active {
   background-color: #232629;
@@ -2710,7 +2710,7 @@ textarea.message-body {
 }
 .app-news #app-content .body pre {
   background-color: #31363b;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 .app-news #app-content .body .title .intro {
   color: rgba(189, 195, 199, 0.6);
@@ -2787,7 +2787,7 @@ textarea.message-body {
   color: #2980b9 !important;
 }
 .app-passman #app-content #app-content-wrapper .credential-table tr td {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 .app-passman #app-content #app-content-wrapper .credential-table tr {
   background-color: #232629;
@@ -2806,24 +2806,24 @@ textarea.message-body {
 }
 .app-passman #app-content #app-content-wrapper .viewModes .view-mode:first-child, .app-passman #app-content #app-content-wrapper .viewModes .view-mode:last-child {
   background-color: #31363b;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 .app-passman #app-content #app-content-wrapper .tags .tag {
   background-color: #4d4d4d;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 .app-passman #app-content #app-content-wrapper .app_sidebar .credential-data .tags .tag {
   background-color: #4d4d4d;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 .app-passman #app-content #app-content-wrapper #passman-controls {
   top: 46px;
   background-color: inherit;
-  border-bottom: 1px solid #121416;
+  border-bottom: 1px solid #2d3237;
 }
 .app-passman #app-content #app-content-wrapper .searchboxContainer .searchOptions {
   background: #31363b;
-  border-color: #121416;
+  border-color: #2d3237;
   box-shadow: none;
 }
 .app-passman #app-content .tab_header li.active .indicator {
@@ -2834,7 +2834,7 @@ textarea.message-body {
   background-color: #3daee9 !important;
 }
 .app-passman #app-content .tab_header li.tab {
-  border-right: 1px solid #121416;
+  border-right: 1px solid #2d3237;
   color: #eff0f1 !important;
   background-color: #31363b !important;
 }
@@ -2848,12 +2848,12 @@ textarea.message-body {
   padding: 4.7px;
   display: inline-block;
   font-size: 14px;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   background-color: #31363b;
   cursor: pointer;
 }
 .app-passman #app-content .pass-meter-col.poor .indicator {
-  background-color: #da4453;
+  background-color: #222629;
 }
 .app-passman #app-content .pass-meter-col.weak .indicator {
   background-color: #f67400;
@@ -2869,7 +2869,7 @@ textarea.message-body {
   background-color: #232629;
   margin-top: 3px;
   padding: 5px;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 .app-passman #app-content .inputfile + label:hover {
   border-color: #3daee9;
@@ -2878,11 +2878,11 @@ textarea.message-body {
 .vault_wrapper {
   box-shadow: none;
   background: #232629;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 .vault_wrapper .vaultlist li {
   padding: 16px;
-  border-bottom: 1px solid #121416;
+  border-bottom: 1px solid #2d3237;
 }
 .vault_wrapper .vaultlist li:hover {
   background-color: rgba(61, 174, 233, 0.25);
@@ -2906,13 +2906,13 @@ textarea.message-body {
   background-image: none;
   filter: none;
   background-repeat: no-repeat;
-  background-color: #da4453;
-  border-color: #da4453;
+  background-color: #222629;
+  border-color: #222629;
 }
 
 tags-input .tags {
   background-color: #232629;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   box-shadow: none;
 }
 tags-input .tags.focused {
@@ -2922,10 +2922,10 @@ tags-input .tags.focused {
   border-color: #3daee9;
 }
 tags-input .tags .tag-item.selected {
-  background: #da4453 !important;
+  background: #222629 !important;
 }
 tags-input .tags .tag-item {
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   border-radius: 3px;
   color: #eff0f1;
 }
@@ -2933,11 +2933,11 @@ tags-input.ng-invalid .tags {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  border-color: #da4453;
+  border-color: #222629;
 }
 tags-input .autocomplete {
   background-color: #232629;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -2949,12 +2949,12 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 
 .angularjs-datetime-picker {
   color: #eff0f1;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   background: #232629;
 }
 .angularjs-datetime-picker .adp-month {
   background: #232629;
-  border-bottom: 1px solid #121416;
+  border-bottom: 1px solid #2d3237;
 }
 .angularjs-datetime-picker .adp-month > button {
   color: #eff0f1;
@@ -2993,7 +2993,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 
 .ui-tabs .ui-tabs-nav li {
   background: #232629;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 
 .app-ocsms #app-content-header {
@@ -3001,11 +3001,11 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 }
 
 #app-mailbox-peers {
-  border-color: #121416;
+  border-color: #2d3237;
   background-color: #232629;
 }
 #app-mailbox-peers li {
-  border-top-color: #121416;
+  border-top-color: #2d3237;
 }
 #app-mailbox-peers li:hover {
   background-color: rgba(61, 174, 233, 0.25);
@@ -3043,7 +3043,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 
 .msg-sent, .msg-recv {
   background-color: #232629;
-  border-color: #121416;
+  border-color: #2d3237;
   box-shadow: none;
 }
 .msg-sent:hover .msg-date, .msg-recv:hover .msg-date {
@@ -3057,14 +3057,14 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 
 .app-tasks #app-content {
   height: 99.9%;
-  border-top: 1px solid #121416;
+  border-top: 1px solid #2d3237;
 }
 .app-tasks #app-content h2 {
   text-shadow: none;
   opacity: 1;
 }
 .app-tasks #app-content #add-task {
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   background: #232629;
 }
 .app-tasks #app-content #add-task input {
@@ -3073,7 +3073,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 }
 .app-tasks #app-content .sortorder-dropdown-button {
   background-color: #31363b;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   height: 32px;
   margin: 13px 0px 12px 12px;
   border-radius: 0;
@@ -3083,7 +3083,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 }
 .app-tasks #app-content #app-sidebar div.content-wrapper .title {
   background-color: #3daee9;
-  border-bottom: 1px solid #121416;
+  border-bottom: 1px solid #2d3237;
   text-shadow: none;
 }
 .app-tasks #app-content #app-sidebar div.content-wrapper .title textarea:hover, .app-tasks #app-content #app-sidebar div.content-wrapper .title textarea:active, .app-tasks #app-content #app-sidebar div.content-wrapper .title textarea:focus {
@@ -3092,26 +3092,26 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 .app-tasks #app-content #app-sidebar div.content-wrapper .body .section {
   background: inherit;
   text-shadow: none;
-  border-bottom: 1px dashed #121416;
+  border-bottom: 1px dashed #2d3237;
 }
 .app-tasks #app-content #app-sidebar div.content-wrapper .body .note {
   background-color: #232629;
   border-width: 1px 1px 1px 1px;
   border-style: solid;
-  border-color: #121416;
+  border-color: #2d3237;
 }
 .app-tasks #app-content #app-sidebar div.content-wrapper .body .note .expandingArea textarea {
   color: #eff0f1;
 }
 .app-tasks #app-content .categories-list li {
   background-color: #31363b;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   color: #eff0f1;
 }
 .app-tasks #app-content .select2-drop {
   background: #232629;
   color: #eff0f1;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   border-top: 0;
   border-radius: 0;
   -webkit-box-shadow: none;
@@ -3121,18 +3121,18 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 .app-tasks #app-content .select2-container-multi.select2-container-active .select2-choices,
 .app-tasks #app-content .select2-container .select2-choice {
   border-radius: 0;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 
 #app-sidebar div.content-wrapper .title .expandable-container {
   background: #232629;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 
 .detail-categories .select2-container-multi .select2-choices .select2-search-choice {
   color: #eff0f1;
   background-color: #31363b;
-  border-color: #121416;
+  border-color: #2d3237;
   margin: 3px 0 3px 5px;
 }
 
@@ -3146,7 +3146,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 
 #content li.task-item .task-body, #content div.task-item .task-body {
   background-color: #232629;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 
 #content li.task-item .task-body .title-wrapper, #content div.task-item .task-body .title-wrapper {
@@ -3167,7 +3167,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 #app-content div.task-list .loadmore span {
   color: #bdc3c7;
   background-color: #31363b;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 #app-content div.task-list .loadmore span:hover {
   color: #eff0f1;
@@ -3183,7 +3183,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 }
 
 #app-navigation .app-navigation-entry-edit input {
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 
 #content li.task-item.add-subtask input, #content div.task-item.add-subtask input {
@@ -3192,12 +3192,12 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 }
 
 #content li.task-item.add-subtask, #content div.task-item.add-subtask {
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 
 #app-sidebar div.content-wrapper .body .section input {
   background: #232629;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   box-shadow: none;
   color: #eff0f1;
 }
@@ -3220,7 +3220,7 @@ div.percentdone {
 }
 
 #content li.task-item .task-body .duedate.overdue, #content div.task-item .task-body .duedate.overdue {
-  color: #da4453;
+  color: #222629;
   font-weight: bold;
   text-shadow: none;
 }
@@ -3244,7 +3244,7 @@ div.percentdone {
 }
 
 .app-music #app-navigation .app-navigation-separator {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 .app-music #scanning, .app-music #toScan, .app-music #emptycontent {
   background-color: #31363b;
@@ -3296,18 +3296,18 @@ div.percentdone {
 }
 
 button#deleteaccount {
-  background-color: #da4453;
+  background-color: #222629;
 }
 button#deleteaccount:hover:not(:disabled):not(.primary):not(#quota) {
-  border-color: #da4453;
+  border-color: #222629;
 }
 button#deleteaccount:disabled {
   background-color: #4d4d4d;
 }
 
 .app-flowupload hr {
-  border-top-color: #121416;
-  border-bottom-color: #121416;
+  border-top-color: #2d3237;
+  border-bottom-color: #2d3237;
 }
 .app-flowupload .alert {
   color: #eff0f1;
@@ -3316,10 +3316,10 @@ button#deleteaccount:disabled {
   border-color: #3daee9;
 }
 .app-flowupload .table-bordered {
-  border-color: #121416;
+  border-color: #2d3237;
 }
 .app-flowupload .table-bordered th, .app-flowupload .table-bordered td {
-  border-color: #121416;
+  border-color: #2d3237;
 }
 .app-flowupload .table-striped tbody > tr:nth-child(2n+1) > td {
   background-color: #31363b;
@@ -3330,11 +3330,11 @@ button#deleteaccount:disabled {
 
 #app-navigation .editing .app-navigation-entry-edit {
   background: #31363b;
-  border-right: 1px solid #121416;
+  border-right: 1px solid #2d3237;
 }
 
 #boardlist td {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 #boardlist thead td {
   opacity: 1;
@@ -3345,7 +3345,7 @@ button#deleteaccount:disabled {
 
 .board-header-controls #stack-add {
   background-color: #232629;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
 }
 .board-header-controls #stack-add:hover {
   border-color: #3daee9;
@@ -3363,16 +3363,16 @@ button#deleteaccount:disabled {
 }
 
 .labels .label-edit input {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 
 .stack {
-  border-right-color: #121416;
+  border-right-color: #2d3237;
 }
 
 #board .card {
   background-color: #31363b;
-  border: 1px solid #121416;
+  border: 1px solid #2d3237;
   box-shadow: none;
 }
 #board .card:hover {
@@ -3394,7 +3394,7 @@ button#deleteaccount:disabled {
   opacity: 0.7;
 }
 #card-meta .section-header {
-  border-bottom-color: #121416;
+  border-bottom-color: #2d3237;
 }
 #card-meta .card-description.section-content .container {
   background-color: #31363b;
@@ -3432,7 +3432,7 @@ button#deleteaccount:disabled {
 #city-list-left {
   background-color: #31363b;
   border-left: none;
-  border-right-color: #121416;
+  border-right-color: #2d3237;
 }
 #city-list-left .city-list li a {
   color: #eff0f1;
@@ -3458,11 +3458,11 @@ button#deleteaccount:disabled {
   color: #fcfcfc;
 }
 #city-list-left .city-list #create-city hr {
-  background: #121416;
+  background: #2d3237;
 }
 
 #city-right {
-  border-top: 1px solid #121416;
+  border-top: 1px solid #2d3237;
 }
 
-/*# sourceMappingURL=core/css/server.css.map */
+/*# sourceMappingURL=server.css.map */
