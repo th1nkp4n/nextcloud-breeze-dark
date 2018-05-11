@@ -15,21 +15,21 @@ $background-negative: rgba(35, 38, 41, 1); //#232629
 $background-neutral: rgba(246, 116, 0, 1);
 $background-positive: rgba(39, 174, 96, 1);
 
-$decoration-normal: rgba(45, 50, 55, 1); // #2d3237
+$decoration-normal: rgba(45, 50, 55, 1); //borders #2d3237
 $decoration-active: rgba(61, 174, 233, 1);
 
 $foreground-active: rgba(252, 252, 252, 1);
-$foreground-inactive: rgba(189, 195, 199, 1);
+$foreground-inactive: rgba(189, 195, 199, 1); //#bdc3c7
 $foreground-link: rgba(41, 128, 185, 1);
-$foreground-normal: rgba(35, 38, 41, 1); //#232629 formerly #eff0f1
-$foreground-background: rgba(189, 195, 199, 0.6);
+$foreground-normal: rgba(248, 248, 248, 1); //for text
+$foreground-background: rgba(35, 38, 41, 1); //#bdc3c7
 
 $foreground-negative: rgba(35, 38, 41, 1); //#232629
 $foreground-neutral: rgba(246, 116, 0, 1);
 $foreground-positive: rgba(39, 174, 96, 1);
 $foreground-visited: rgba(127, 140, 141, 1);
 
-$foreground-markdown-marker: rgba(189, 195, 199, 0.4);
+$foreground-markdown-marker: rgba(189, 195, 199, 0.4); //#bdc3c7
 
 /* Buttons*/
 $button-background-active: $background-active;

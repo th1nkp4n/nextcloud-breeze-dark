@@ -636,7 +636,7 @@ a.impersonate img.svg {
 }
 
 body {
-  color: #232629;
+  color: #f8f8f8;
   background-color: #31363b;
 }
 
@@ -647,7 +647,7 @@ a:hover, a:focus {
   color: #2980b9;
 }
 a.button:hover, a.button:focus {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 em {
@@ -660,7 +660,7 @@ h1, h2, h3 {
 }
 
 h4, h5, h6 {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 table tr {
@@ -673,16 +673,16 @@ table tr:active {
   background-color: inherit;
 }
 table th a, table a {
-  color: #232629;
+  color: #f8f8f8;
 }
 table th a:hover, table th a:focus, table a:hover, table a:focus {
-  color: #232629;
+  color: #f8f8f8;
 }
 table td {
   border-bottom-color: #2d3237;
 }
 table thead th {
-  color: #232629;
+  color: #f8f8f8;
   border-bottom: 1px solid #2d3237;
   background-color: #31363b;
 }
@@ -787,7 +787,7 @@ input[type=submit],
 input[type=button] {
   background-color: #31363b;
   border: 1px solid #2d3237;
-  color: #232629;
+  color: #f8f8f8;
 }
 select:not(:disabled):not(.primary):not(#quota):hover,
 button:not(:disabled):not(.primary):not(#quota):hover,
@@ -900,7 +900,7 @@ input[type=button].primary:disabled:active {
   background: none;
   background-color: #31363b;
   font-weight: bold;
-  color: #232629;
+  color: #f8f8f8;
 }
 
 /* Login Screen ------------------------------------------------------------- */
@@ -968,7 +968,7 @@ input[type=button].primary:disabled:active {
 
 /* Breadcrumbs -------------------------------------------------------------- */
 div.crumb a, div.crumb > span {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 div.crumb:hover, div.crumb:focus, div.crumb a:focus, div.crumb:active {
@@ -1006,14 +1006,14 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
 
 .popovermenu {
   background-color: #31363b;
-  color: #232629;
+  color: #f8f8f8;
   border: 1px solid #2d3237;
 }
 .popovermenu::after {
   border-bottom-color: #2d3237;
 }
 .popovermenu li > a {
-  color: #232629;
+  color: #f8f8f8;
 }
 .popovermenu li .menuitem {
   color: #bdc3c7;
@@ -1025,7 +1025,7 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
 
 .bubble, .app-navigation-entry-menu {
   background-color: #31363b;
-  color: #232629;
+  color: #f8f8f8;
   border: 1px solid #2d3237;
   -webkit-filter: none;
   -moz-filter: none;
@@ -1046,7 +1046,7 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
   border-bottom-color: #2d3237;
 }
 #expanddiv a {
-  color: #232629;
+  color: #f8f8f8;
 }
 #expanddiv a:hover {
   background-color: rgba(61, 174, 233, 0.25);
@@ -1065,7 +1065,7 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
   border-bottom-color: #2d3237;
 }
 #navigation a span {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 #app-navigation .utils .action:hover, #app-navigation .utils .action:focus {
@@ -1118,7 +1118,7 @@ span.success {
 
 /* Quota -------------------------------------------------------------------- */
 #quota {
-  color: #232629;
+  color: #f8f8f8;
   border: none;
   border-radius: 3px;
 }
@@ -1138,7 +1138,7 @@ span.success {
 
 /* General Settings --------------------------------------------------------- */
 .section, .followupsection {
-  color: #232629;
+  color: #f8f8f8;
 }
 .section > span, .followupsection > span {
   color: #bdc3c7;
@@ -1146,7 +1146,7 @@ span.success {
 
 #cropper .inner-container {
   background-color: #31363b;
-  color: #232629;
+  color: #f8f8f8;
   box-shadow: none;
   border: 1px solid #2d3237;
 }
@@ -1161,7 +1161,7 @@ span.success {
 
 /* App Store ---------------------------------------------------------------- */
 .app-level span {
-  color: #232629;
+  color: #f8f8f8;
 }
 .app-level .official {
   border-color: #27ae60;
@@ -1183,7 +1183,7 @@ span.success {
 
 /* Users -------------------------------------------------------------------- */
 #userlist th.name {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 select.quota-user {
@@ -1226,12 +1226,12 @@ select.quota-user option {
 /* File picker -------------------------------------------------------------- */
 .oc-dialog {
   background-color: #31363b;
-  color: #232629;
+  color: #f8f8f8;
   box-shadow: none;
   border: 1px solid #2d3237;
 }
 .oc-dialog .fileexists th label {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 .oc-dialog-title {
@@ -1281,23 +1281,23 @@ ul.multiselectoptions.down {
 /* Dropdown Selects --------------------------------------------------------- */
 .select2-container-multi .select2-choices, .select2-container-multi.select2-container-active .select2-choices {
   background-color: #232629;
-  color: #232629;
+  color: #f8f8f8;
   border-color: #2d3237;
 }
 .select2-container-multi .select2-choices .select2-search-choice, .select2-container-multi.select2-container-active .select2-choices .select2-search-choice {
   background-color: #31363b;
   border-color: #2d3237;
-  color: #232629;
+  color: #f8f8f8;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 .select2-container-multi .select2-choices .select2-search-choice:hover, .select2-container-multi .select2-choices .select2-search-choice.select2-search-choice-focus, .select2-container-multi.select2-container-active .select2-choices .select2-search-choice:hover, .select2-container-multi.select2-container-active .select2-choices .select2-search-choice.select2-search-choice-focus {
   background-color: #31363b;
   border-color: #3daee9;
-  color: #232629;
+  color: #f8f8f8;
 }
 .select2-container-multi .select2-choices .select2-search-field input {
-  color: #232629;
+  color: #f8f8f8;
 }
 .select2-container-multi .select2-choices .select2-search-field input.select2-active {
   background-color: #232629 !important;
@@ -1305,7 +1305,7 @@ ul.multiselectoptions.down {
 
 .select2-container .select2-choices {
   background-color: #232629;
-  color: #232629;
+  color: #f8f8f8;
   border-color: #2d3237;
 }
 .select2-container .select2-choices .select2-search-field {
@@ -1317,7 +1317,7 @@ ul.multiselectoptions.down {
 .select2-container .select2-choices .select2-search-choice {
   background-color: #31363b;
   border-color: #2d3237;
-  color: #232629;
+  color: #f8f8f8;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -1328,7 +1328,7 @@ ul.multiselectoptions.down {
 .select2-container .select2-choice {
   background: #232629;
   border-color: #2d3237;
-  color: #232629 !important;
+  color: #f8f8f8 !important;
 }
 .select2-container .select2-choice .select2-arrow {
   background: #31363b;
@@ -1337,7 +1337,7 @@ ul.multiselectoptions.down {
 
 #select2-drop, .select2-drop {
   background-color: #31363b;
-  color: #232629;
+  color: #f8f8f8;
 }
 #select2-drop.select2-drop-active, .select2-drop.select2-drop-active {
   border-color: #2d3237;
@@ -1348,14 +1348,14 @@ ul.multiselectoptions.down {
 .select2-drop .select2-results .select2-no-results,
 .select2-drop .select2-results .select2-searching {
   background-color: #232629;
-  color: #232629;
+  color: #f8f8f8;
 }
 #select2-drop .select2-results .select2-result.select2-selected, .select2-drop .select2-results .select2-result.select2-selected {
   background-color: #31363b;
 }
 #select2-drop .select2-results .select2-highlighted, #select2-drop .select2-results .select2-result.select2-highlighted, .select2-drop .select2-results .select2-highlighted, .select2-drop .select2-results .select2-result.select2-highlighted {
   background-color: #4d4d4d;
-  color: #232629;
+  color: #f8f8f8;
 }
 
 .select2-dropdown-open .select2-choice {
@@ -1371,22 +1371,22 @@ ul.multiselectoptions.down {
 /* Auto suggestion users in comments dropdown ------------------------------- */
 .atwho-view {
   background: #31363b;
-  color: #232629;
+  color: #f8f8f8;
   border-color: #2d3237;
   box-shadow: none;
 }
 .atwho-view .cur {
   background: rgba(61, 174, 233, 0.25);
-  color: #232629;
+  color: #f8f8f8;
 }
 .atwho-view .cur strong {
-  color: #232629;
+  color: #f8f8f8;
 }
 .atwho-view ul li {
   border-bottom-color: #2d3237;
 }
 .atwho-view strong {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 /* Auto suggestion in sharing dropdown -------------------------------------- */
@@ -1404,7 +1404,7 @@ ul.multiselectoptions.down {
 
 /* Upload Progress ---------------------------------------------------------- */
 #uploadprogresswrapper #uploadprogressbar .label.outer, #uploadprogresswrapper #uploadprogressbar .label.inner {
-  color: #232629;
+  color: #f8f8f8;
 }
 #uploadprogresswrapper #uploadprogressbar .ui-progressbar-value.ui-widget-header.ui-corner-left {
   background-color: rgba(61, 174, 233, 0.25);
@@ -1421,7 +1421,7 @@ ul.multiselectoptions.down {
 
 .ui-dialog-titlebar.ui-widget-header {
   background-color: #31363b;
-  color: #232629;
+  color: #f8f8f8;
 }
 .ui-dialog-titlebar.ui-widget-header .ui-dialog-titlebar-close .ui-icon-closethick {
   background-image: url("../../core/img/actions/close.svg");
@@ -1430,12 +1430,12 @@ ul.multiselectoptions.down {
 .ui-widget-content {
   background: #31363b;
   border: 1px solid #2d3237;
-  color: #232629;
+  color: #f8f8f8;
 }
 
 .ui-widget-header {
   background: inherit;
-  color: #232629;
+  color: #f8f8f8;
   border: none;
 }
 
@@ -1448,7 +1448,7 @@ ul.multiselectoptions.down {
 }
 .ui-widget.ui-datepicker .ui-widget-header {
   background-color: #31363b;
-  color: #232629;
+  color: #f8f8f8;
 }
 .ui-widget.ui-datepicker .ui-widget-header .ui-icon {
   opacity: 1;
@@ -1458,11 +1458,11 @@ ul.multiselectoptions.down {
   background: #31363b;
 }
 .ui-widget.ui-datepicker .ui-datepicker-calendar th {
-  color: #232629;
+  color: #f8f8f8;
   opacity: 0.7;
 }
 .ui-widget.ui-datepicker .ui-datepicker-calendar tr td > * {
-  color: #232629;
+  color: #f8f8f8;
 }
 .ui-widget.ui-datepicker .ui-datepicker-calendar td .ui-priority-secondary:not(.ui-state-hover) {
   color: #bdc3c7;
@@ -1495,10 +1495,10 @@ ul.multiselectoptions.down {
 }
 .ui-widget.ui-timepicker .ui-widget-header {
   background-color: #31363b;
-  color: #232629;
+  color: #f8f8f8;
 }
 .ui-widget.ui-timepicker table.ui-timepicker tr td > * {
-  color: #232629;
+  color: #f8f8f8;
 }
 .ui-widget.ui-timepicker .ui-timepicker-table th {
   color: #bdc3c7;
@@ -1540,7 +1540,7 @@ ul.multiselectoptions.down {
 
 .tooltip-inner {
   background-color: #31363b;
-  color: #232629;
+  color: #f8f8f8;
   box-shadow: none;
   border: 1px solid #2d3237 !important;
   padding: 10px;
@@ -1588,7 +1588,7 @@ ul.multiselectoptions.down {
 #appmenu li span {
   background-color: #31363b;
   border: 1px solid #2d3237;
-  color: #232629;
+  color: #f8f8f8;
   -webkit-filter: none;
   -moz-filter: none;
   -ms-filter: none;
@@ -1619,7 +1619,7 @@ ul.multiselectoptions.down {
   border-color: #2d3237;
 }
 #app-navigation ul > li > a, #app-navigation li > a {
-  color: #232629;
+  color: #f8f8f8;
   opacity: 1;
 }
 #app-navigation ul > li > a:hover, #app-navigation ul > li > a:hover + div.app-navigation-entry-utils, #app-navigation li > a:hover, #app-navigation li > a:hover + div.app-navigation-entry-utils {
@@ -1634,10 +1634,10 @@ ul.multiselectoptions.down {
   font-weight: 600;
 }
 #app-navigation .app-external {
-  color: #232629;
+  color: #f8f8f8;
 }
 #app-navigation .add-new button {
-  color: #232629 !important;
+  color: #f8f8f8 !important;
 }
 #app-navigation .add-new div.heading:hover {
   background-color: rgba(61, 174, 233, 0.25);
@@ -1662,7 +1662,7 @@ ul.multiselectoptions.down {
 }
 
 .app-navigation-entry-menu li > button {
-  color: #232629;
+  color: #f8f8f8;
 }
 .app-navigation-entry-menu li > button:hover {
   background-color: rgba(61, 174, 233, 0.25);
@@ -1680,17 +1680,17 @@ ul.multiselectoptions.down {
   border-color: #2d3237;
 }
 #app-sidebar .file-details {
-  color: #232629;
+  color: #f8f8f8;
 }
 #app-sidebar .close {
   opacity: 1;
 }
 #app-sidebar .thumbnail {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 .tabHeaders .tabHeader, .tabHeaders .tabHeader a {
-  color: #232629;
+  color: #f8f8f8;
 }
 .tabHeaders .tabHeader.selected a, .tabHeaders .tabHeader:hover a {
   color: #fcfcfc;
@@ -1718,12 +1718,12 @@ ul.multiselectoptions.down {
 }
 
 .ui-widget-content a {
-  color: #232629;
+  color: #f8f8f8;
 }
 .ui-widget-content .ui-state-focus {
   border-color: #3daee9;
   background: rgba(61, 174, 233, 0.25);
-  color: #232629;
+  color: #f8f8f8;
 }
 
 /* App Settings ------------------------------------------------------------- */
@@ -1740,12 +1740,12 @@ ul.multiselectoptions.down {
   color: #2980b9;
 }
 #app-settings-content .info-text {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 .settings-button {
   background-color: #31363b;
-  color: #232629;
+  color: #f8f8f8;
   opacity: 1;
 }
 .settings-button.opened {
@@ -1760,7 +1760,7 @@ ul.multiselectoptions.down {
 }
 
 .activitymessage {
-  color: #232629;
+  color: #f8f8f8;
   opacity: 0.6;
 }
 
@@ -1798,17 +1798,17 @@ ul.multiselectoptions.down {
   background-color: inherit;
 }
 .app-calendar #app-navigation .new-entity {
-  color: #232629;
+  color: #f8f8f8;
   opacity: 0.7;
 }
 .app-calendar #app-navigation .new-entity:hover {
   background-color: rgba(61, 174, 233, 0.25);
-  color: #232629;
+  color: #f8f8f8;
   opacity: 1;
 }
 .app-calendar #app-navigation .app-navigation-entry-menu {
   background-color: #31363b;
-  color: #232629;
+  color: #f8f8f8;
   border: 1px solid #2d3237;
   -webkit-filter: none;
   -moz-filter: none;
@@ -1824,7 +1824,7 @@ ul.multiselectoptions.down {
   background-color: #31363b;
 }
 .app-calendar #app-navigation .togglebuttons .button.active {
-  color: #232629;
+  color: #f8f8f8;
   box-shadow: none;
 }
 .app-calendar #app-navigation #datepickercontainer {
@@ -1881,7 +1881,7 @@ ul.multiselectoptions.down {
 
 .fc-basic-view .fc-day-top .fc-week-number {
   background-color: #31363b;
-  color: #232629;
+  color: #f8f8f8;
   border-right: 1px solid #2d3237;
   border-bottom: 1px solid #2d3237;
 }
@@ -1928,7 +1928,7 @@ ul.multiselectoptions.down {
 }
 
 #circles_list div {
-  color: #232629;
+  color: #f8f8f8;
   border-color: #2d3237;
   background-color: #31363b;
 }
@@ -1940,20 +1940,20 @@ ul.multiselectoptions.down {
 }
 
 #circles_new_type_definition div {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 #mainui #circle_details #name {
   color: #fcfcfc;
 }
 #mainui #circle_details #type {
-  color: #232629;
+  color: #f8f8f8;
 }
 #mainui #circle_details .lightenbg {
   background: #3daee9;
 }
 #mainui #memberslist .entry td {
-  color: #232629;
+  color: #f8f8f8;
   background: #31363b !important;
   border-bottom-color: #2d3237;
 }
@@ -1969,7 +1969,7 @@ div.circle:hover {
   background-color: rgba(61, 174, 233, 0.25);
 }
 div.circle .title, div.circle .type, div.circle .owner {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 #app-navigation.circles.selected {
@@ -1982,7 +1982,7 @@ div.circle .title, div.circle .type, div.circle .owner {
 
 #members_search_result {
   border-color: #2d3237;
-  color: #232629;
+  color: #f8f8f8;
   background: #31363b;
 }
 #members_search_result .members_search.exact {
@@ -2012,7 +2012,7 @@ div.circle .title, div.circle .type, div.circle .owner {
   border-color: #3daee9;
 }
 .app-contacts .app-content-list-item a {
-  color: #232629;
+  color: #f8f8f8;
 }
 .app-contacts .contacts-list-count {
   color: #bdc3c7;
@@ -2022,18 +2022,18 @@ div.circle .title, div.circle .type, div.circle .owner {
   background-color: #31363b;
 }
 .app-contacts .contactdetails__header {
-  color: #232629;
+  color: #f8f8f8;
 }
 .app-contacts .contactdetails__header .contactdetails__name {
-  color: #232629;
+  color: #f8f8f8;
   font-weight: 600;
 }
 .app-contacts .contactdetails__header .contactdetails__org, .app-contacts .contactdetails__header .contactdetails__title {
-  color: #232629 !important;
+  color: #f8f8f8 !important;
   font-weight: 600;
 }
 .app-contacts .contactdetails__header .contactdetails__org:placeholder-shown, .app-contacts .contactdetails__header .contactdetails__title:placeholder-shown {
-  color: #232629;
+  color: #f8f8f8;
   opacity: 1;
 }
 .app-contacts .contactdetails__header #details-actions a, .app-contacts .contactdetails__header #details-actions button {
@@ -2122,10 +2122,10 @@ table td.filesize {
 
 table.multiselect thead th {
   background-color: rgba(61, 174, 233, 0.25);
-  color: #232629;
+  color: #f8f8f8;
 }
 table.multiselect th a {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus span.extension {
@@ -2144,14 +2144,14 @@ td.date, td.date > span {
 #app-content-systemtagsfilter .select2-choices {
   background-color: #232629;
   border-color: #2d3237;
-  color: #232629;
+  color: #f8f8f8;
 }
 
 #fileList a.action {
   opacity: 0.5;
 }
 #fileList .popovermenu .action {
-  color: #232629;
+  color: #f8f8f8;
 }
 #fileList .popovermenu .action:hover, #fileList .popovermenu .action:focus, #fileList .popovermenu .action:active {
   color: #fcfcfc;
@@ -2198,12 +2198,12 @@ td.date, td.date > span {
 #controls .button.sorting.active-button {
   background-color: #3daee9;
   border-color: #3daee9;
-  color: #232629;
+  color: #f8f8f8;
 }
 #controls .button.sorting.active-button:hover {
   background-color: #3daee9;
   border-color: #3daee9;
-  color: #232629;
+  color: #f8f8f8;
 }
 #controls .button.left-switch-button {
   border-color: #2d3237;
@@ -2213,12 +2213,12 @@ td.date, td.date > span {
 }
 #controls .button.view-switcher.gallery {
   background-color: #31363b;
-  color: #232629;
+  color: #f8f8f8;
   border: 1px solid #2d3237;
 }
 #controls .button.view-switcher.gallery:hover {
   background-color: #31363b;
-  color: #232629;
+  color: #f8f8f8;
   border-color: #3daee9;
 }
 #controls .button.view-switcher.gallery:focus, #controls .button.view-switcher.gallery:active {
@@ -2272,7 +2272,7 @@ td.date, td.date > span {
   background-color: #31363b !important;
 }
 #logreader-root table thead th {
-  color: #232629;
+  color: #f8f8f8;
   border-bottom-color: #2d3237;
 }
 
@@ -2295,7 +2295,7 @@ td.date, td.date > span {
   color: #bdc3c7;
 }
 .notification-container .notification {
-  color: #232629;
+  color: #f8f8f8;
 }
 .notification-container a {
   color: #2980b9;
@@ -2326,7 +2326,7 @@ td.date, td.date > span {
   background-color: #31363b;
 }
 #editor_controls small.filename {
-  color: #232629;
+  color: #f8f8f8;
 }
 #editor_controls small.saving-message {
   color: #bdc3c7;
@@ -2343,7 +2343,7 @@ td.date, td.date > span {
 
 .ace-clouds {
   background-color: #31363b !important;
-  color: #232629 !important;
+  color: #f8f8f8 !important;
 }
 .ace-clouds .ace_gutter {
   color: #bdc3c7 !important;
@@ -2363,7 +2363,7 @@ td.date, td.date > span {
   background: rgba(61, 174, 233, 0.25) !important;
 }
 .ace-clouds .ace_cursor {
-  color: #232629 !important;
+  color: #f8f8f8 !important;
 }
 
 /* Two Factor U2F */
@@ -2391,7 +2391,7 @@ td.date, td.date > span {
 }
 
 .sm2-bar-ui, .sm2-bar-ui .bd a {
-  color: #232629;
+  color: #f8f8f8;
 }
 .sm2-bar-ui .sm2-inline-gradient {
   background-color: #31363b;
@@ -2425,7 +2425,7 @@ td.date, td.date > span {
 }
 
 .albumdescr span.albumname {
-  color: #232629;
+  color: #f8f8f8;
 }
 .albumdescr span.artist {
   color: #bdc3c7;
@@ -2433,35 +2433,35 @@ td.date, td.date > span {
 
 .songcontainer {
   background-color: #232629 !important;
-  color: #232629 !important;
+  color: #f8f8f8 !important;
   box-shadow: none;
 }
 .songcontainer .songcontainer-cover {
   box-shadow: none;
 }
 .songcontainer span.title, .songcontainer span.number, .songcontainer span.time {
-  color: #232629 !important;
+  color: #f8f8f8 !important;
 }
 
 #individual-playlist-header span {
-  color: #232629;
+  color: #f8f8f8;
 }
 #individual-playlist-header .header-indi {
   border-bottom-color: #2d3237;
-  color: #232629;
+  color: #f8f8f8;
 }
 
 #individual-playlist li {
-  color: #232629;
+  color: #f8f8f8;
 }
 #individual-playlist li.dragable:hover {
   background-color: rgba(61, 174, 233, 0.25);
 }
 #individual-playlist li span.title, #individual-playlist li span.interpret, #individual-playlist li span.album-indi, #individual-playlist li span.time {
-  color: #232629 !important;
+  color: #f8f8f8 !important;
 }
 #individual-playlist .ioc {
-  color: #232629 !important;
+  color: #f8f8f8 !important;
 }
 
 #phototools {
@@ -2481,7 +2481,7 @@ td.date, td.date > span {
 
 #bm_import:hover ~ button#bm_import_submit {
   background-color: #31363b;
-  color: #232629;
+  color: #f8f8f8;
 }
 
 .bookmark_single {
@@ -2505,7 +2505,7 @@ ul.tagit input[type=text] {
   color: #bdc3c7;
 }
 ul.tagit li.tagit-choice {
-  color: #232629;
+  color: #f8f8f8;
   background-color: #31363b;
   border-color: #2d3237;
 }
@@ -2534,7 +2534,7 @@ ul.tagit li.tagit-choice a.tagLabel:hover, ul.tagit li.tagit-choice a.close .tex
   background: #31363b;
 }
 #mail-message-header .transparency {
-  color: #232629 !important;
+  color: #f8f8f8 !important;
 }
 #mail-message-header .transparency a {
   color: #2980b9 !important;
@@ -2585,7 +2585,7 @@ ul.tagit li.tagit-choice a.tagLabel:hover, ul.tagit li.tagit-choice a.close .tex
 .mail-message-summary-subject,
 .active .mail-message-summary-from {
   opacity: 1;
-  color: #232629;
+  color: #f8f8f8;
 }
 
 .account-toggle-collapse {
@@ -2638,7 +2638,7 @@ textarea.message-body {
 #app-navigation > ul > .navigation-account > li > a,
 #app-navigation > ul > .navigation-account > .folders > li > a,
 #app-navigation > ul > .navigation-account > .folders > li > .folders > .folders > li > a {
-  color: #232629;
+  color: #f8f8f8;
   opacity: 0.75;
 }
 
@@ -2658,7 +2658,7 @@ textarea.message-body {
 }
 .app-news #app-navigation > ul > li > a,
 .app-news #app-navigation > ul > li > ul > li > a {
-  color: #232629;
+  color: #f8f8f8;
   opacity: 1;
 }
 
@@ -2677,7 +2677,7 @@ textarea.message-body {
   color: #bdc3c7;
 }
 .app-news #app-content .heading a {
-  color: #232629;
+  color: #f8f8f8;
 }
 .app-news #app-content .subtitle {
   color: #bdc3c7;
@@ -2706,14 +2706,14 @@ textarea.message-body {
   color: #fcfcfc;
 }
 .app-news #app-content .body h4, .app-news #app-content .body h5, .app-news #app-content .body h6 {
-  color: #232629;
+  color: #f8f8f8;
 }
 .app-news #app-content .body pre {
   background-color: #31363b;
   border-color: #2d3237;
 }
 .app-news #app-content .body .title .intro {
-  color: rgba(189, 195, 199, 0.6);
+  color: #232629;
 }
 
 .app-notes #app-content .note-meta {
@@ -2754,13 +2754,13 @@ textarea.message-body {
 }
 
 #app-navigation li .nav-entry {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 .note-search input {
   border: none;
   background-color: transparent;
-  color: #232629;
+  color: #f8f8f8;
 }
 .note-search input:active, .note-search input:focus, .note-search input:hover {
   border-bottom: 1px solid #3daee9;
@@ -2769,7 +2769,7 @@ textarea.message-body {
 
 .CodeMirror {
   background-color: #31363b;
-  color: #232629;
+  color: #f8f8f8;
 }
 
 .CodeMirror-cursor {
@@ -2835,7 +2835,7 @@ textarea.message-body {
 }
 .app-passman #app-content .tab_header li.tab {
   border-right: 1px solid #2d3237;
-  color: #232629 !important;
+  color: #f8f8f8 !important;
   background-color: #31363b !important;
 }
 .app-passman #app-content .tab_container {
@@ -2927,7 +2927,7 @@ tags-input .tags .tag-item.selected {
 tags-input .tags .tag-item {
   border: 1px solid #2d3237;
   border-radius: 3px;
-  color: #232629;
+  color: #f8f8f8;
 }
 tags-input.ng-invalid .tags {
   -webkit-box-shadow: none;
@@ -2943,12 +2943,12 @@ tags-input .autocomplete {
   box-shadow: none;
 }
 tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .suggestion-item.selected em {
-  color: #232629;
+  color: #f8f8f8;
   background-color: #3daee9;
 }
 
 .angularjs-datetime-picker {
-  color: #232629;
+  color: #f8f8f8;
   border: 1px solid #2d3237;
   background: #232629;
 }
@@ -2957,7 +2957,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
   border-bottom: 1px solid #2d3237;
 }
 .angularjs-datetime-picker .adp-month > button {
-  color: #232629;
+  color: #f8f8f8;
   top: 4px;
 }
 .angularjs-datetime-picker .adp-month > button:hover {
@@ -3024,11 +3024,11 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 }
 
 .ocsms-plname {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 #ocsms-phone-msg-nb {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 #ocsms-phone-label {
@@ -3068,7 +3068,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
   background: #232629;
 }
 .app-tasks #app-content #add-task input {
-  color: #232629;
+  color: #f8f8f8;
   background: #232629 !important;
 }
 .app-tasks #app-content .sortorder-dropdown-button {
@@ -3079,7 +3079,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
   border-radius: 0;
 }
 .app-tasks #app-content .sortorder-dropdown li > a {
-  color: #232629;
+  color: #f8f8f8;
 }
 .app-tasks #app-content #app-sidebar div.content-wrapper .title {
   background-color: #3daee9;
@@ -3101,16 +3101,16 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
   border-color: #2d3237;
 }
 .app-tasks #app-content #app-sidebar div.content-wrapper .body .note .expandingArea textarea {
-  color: #232629;
+  color: #f8f8f8;
 }
 .app-tasks #app-content .categories-list li {
   background-color: #31363b;
   border: 1px solid #2d3237;
-  color: #232629;
+  color: #f8f8f8;
 }
 .app-tasks #app-content .select2-drop {
   background: #232629;
-  color: #232629;
+  color: #f8f8f8;
   border: 1px solid #2d3237;
   border-top: 0;
   border-radius: 0;
@@ -3130,7 +3130,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 }
 
 .detail-categories .select2-container-multi .select2-choices .select2-search-choice {
-  color: #232629;
+  color: #f8f8f8;
   background-color: #31363b;
   border-color: #2d3237;
   margin: 3px 0 3px 5px;
@@ -3141,7 +3141,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 }
 
 #content {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 #content li.task-item .task-body, #content div.task-item .task-body {
@@ -3150,7 +3150,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 }
 
 #content li.task-item .task-body .title-wrapper, #content div.task-item .task-body .title-wrapper {
-  color: #232629;
+  color: #f8f8f8;
   text-shadow: none;
 }
 
@@ -3170,7 +3170,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
   border: 1px solid #2d3237;
 }
 #app-content div.task-list .loadmore span:hover {
-  color: #232629;
+  color: #f8f8f8;
   background-color: inherit;
   border-color: #3daee9;
 }
@@ -3188,7 +3188,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
 
 #content li.task-item.add-subtask input, #content div.task-item.add-subtask input {
   background: #232629 !important;
-  color: #232629;
+  color: #f8f8f8;
 }
 
 #content li.task-item.add-subtask, #content div.task-item.add-subtask {
@@ -3199,7 +3199,7 @@ tags-input .autocomplete .suggestion-item.selected, tags-input .autocomplete .su
   background: #232629;
   border: 1px solid #2d3237;
   box-shadow: none;
-  color: #232629;
+  color: #f8f8f8;
 }
 
 div.percentdone {
@@ -3215,7 +3215,7 @@ div.percentdone {
 }
 
 #content li.task-item .task-body .duedate, #content div.task-item .task-body .duedate {
-  color: #232629;
+  color: #f8f8f8;
   text-shadow: none;
 }
 
@@ -3250,7 +3250,7 @@ div.percentdone {
   background-color: #31363b;
 }
 .app-music #scanning:hover *, .app-music #toScan:hover *, .app-music #emptycontent:hover * {
-  color: #232629;
+  color: #f8f8f8;
 }
 .app-music #scanning .icon-audio, .app-music #toScan .icon-audio, .app-music #emptycontent .icon-audio {
   opacity: 1;
@@ -3310,7 +3310,7 @@ button#deleteaccount:disabled {
   border-bottom-color: #2d3237;
 }
 .app-flowupload .alert {
-  color: #232629;
+  color: #f8f8f8;
   background-color: rgba(61, 174, 233, 0.25);
   text-shadow: none;
   border-color: #3daee9;
@@ -3352,7 +3352,7 @@ button#deleteaccount:disabled {
 }
 
 #board-detail-labels ul li .label-edit input {
-  color: #232629 !important;
+  color: #f8f8f8 !important;
 }
 #board-detail-labels ul li .label-edit.ng-scope input {
   color: #000000 !important;
@@ -3401,7 +3401,7 @@ button#deleteaccount:disabled {
 }
 #card-meta .save-indicator.unsaved {
   background-color: #4d4d4d;
-  color: #232629;
+  color: #f8f8f8;
 }
 
 .app-settings #app-content #fns .div-table .div-table-row .div-table-col select, .app-settings #app-content #fns .div-table .div-table-row .div-table-col input, .app-settings #app-content #elastic_search .div-table .div-table-row .div-table-col select, .app-settings #app-content #elastic_search .div-table .div-table-row .div-table-col input, .app-settings #app-content #files .div-table .div-table-row .div-table-col select, .app-settings #app-content #files .div-table .div-table-row .div-table-col input {
@@ -3409,7 +3409,7 @@ button#deleteaccount:disabled {
 }
 
 .provider_navigation {
-  color: #232629;
+  color: #f8f8f8;
   background: #31363b;
 }
 
@@ -3418,7 +3418,7 @@ button#deleteaccount:disabled {
 }
 
 #fts-popup .div-table-col-left {
-  color: #232629;
+  color: #f8f8f8;
 }
 
 #fulltextsearch .menutoggle:hover {
@@ -3435,7 +3435,7 @@ button#deleteaccount:disabled {
   border-right-color: #2d3237;
 }
 #city-list-left .city-list li a {
-  color: #232629;
+  color: #f8f8f8;
 }
 #city-list-left .city-list li:hover, #city-list-left .city-list li:hover > a {
   background-color: rgba(61, 174, 233, 0.25);
