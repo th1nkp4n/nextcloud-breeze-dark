@@ -15,7 +15,7 @@
 				opacity: 1;
 			}
 		}
-		
+
 	}
 
 	#remember_login + label {
@@ -118,7 +118,7 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
 	}
 
 	> .menu {
-		
+
 		.contact {
 			border-bottom-color: $decoration-normal;
 		}
@@ -161,7 +161,7 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
 
 .bubble, .app-navigation-entry-menu {
 	background-color: $background-normal;
-	color: $foreground-normal;
+	color: $foreground-normal !important;
 	border: 1px solid $decoration-normal;
 	-webkit-filter: none;
 	-moz-filter: none;
@@ -169,6 +169,7 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
 	-o-filter: none;
 	filter: none;
 
+	a
 	&::after {
 		border-bottom-color: $decoration-normal;
 	}
@@ -213,14 +214,14 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
 #app-navigation .utils .action {
 
 	&:hover, &:focus {
-		opacity: 0.7;
+		opacity: 1;
 	}
 }
 
 /* Info colours ------------------------------------------------------------- */
 
-#postsetupchecks .errors, 
-#postsetupchecks .warnings, 
+#postsetupchecks .errors,
+#postsetupchecks .warnings,
 #security-warning > ul {
 	color: $foreground-negative;
 }
@@ -340,7 +341,7 @@ span {
 
 #apps-list {
 	&.installed {
-		
+
 		.app-image-icon svg {
 			opacity: 1;
 		}
@@ -517,7 +518,7 @@ ul.multiselectoptions {
 }
 
 .select2-container {
-	
+
 	.select2-choices {
 		background-color: $background-dark;
 		color: $foreground-normal;
@@ -677,10 +678,10 @@ ul.multiselectoptions {
 		color: $foreground-normal;
 
 		.ui-dialog-titlebar-close {
-			
+
 			.ui-icon-closethick {
-				background-image: url('../../core/img/actions/close.svg');   
-			} 
+				background-image: url('../../core/img/actions/close.svg');
+			}
 		}
 	}
 }
@@ -726,7 +727,7 @@ ul.multiselectoptions {
 			color: $foreground-normal;
 			opacity: 0.7;
 		}
-		
+
 		tr td > * {
 			color: $foreground-normal;
 		}
@@ -746,7 +747,7 @@ ul.multiselectoptions {
 			opacity: 0.7;
 		}
 
-		td.ui-datepicker-current-day:not(.ui-state-disabled) a.ui-state-active, td .ui-state-hover, 
+		td.ui-datepicker-current-day:not(.ui-state-disabled) a.ui-state-active, td .ui-state-hover,
 		td .ui-state-focus {
 			background-color: $background-active;
 			color: $foreground-active;
@@ -783,14 +784,14 @@ ul.multiselectoptions {
 			color: $foreground-inactive;
 			opacity: 0.7%;
 		}
-	
+
 		td.ui-timepicker-hours {
 			border-right-color: $decoration-normal;
 		}
 
-		td.ui-timepicker-hour-cell a.ui-state-active, 
-		td.ui-timepicker-minute-cell a.ui-state-active, 
-		td .ui-state-hover, 
+		td.ui-timepicker-hour-cell a.ui-state-active,
+		td.ui-timepicker-minute-cell a.ui-state-active,
+		td .ui-state-hover,
 		td .ui-state-focus {
 			background-color: $background-active;
 			color: $foreground-active;

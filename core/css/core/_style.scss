@@ -26,6 +26,7 @@ h1, h2, h3 {
 
 h4, h5, h6 {
 	color: $foreground-normal;
+	font-weight: 500;
 }
 
 // Tables
@@ -72,9 +73,9 @@ table.grid th, table.grid td {
 
 // Input Fields
 
-input.radio[type="checkbox"], 
-input.radio[type="radio"], 
-input.checkbox[type="checkbox"], 
+input.radio[type="checkbox"],
+input.radio[type="radio"],
+input.checkbox[type="checkbox"],
 input.checkbox[type="radio"] {
 	&:checked + label::before, &:indeterminate + label::before {
 		background-color: $background-active-alternate;
@@ -92,11 +93,11 @@ div[contenteditable="true"],
 	border: 1px solid $decoration-normal;
 
 	&:not(:disabled):not(.primary) {
-		
+
 		&:not(#quota):hover {
 			border-color: $decoration-active;
 		}
-		
+
 		&:focus, &:active {
 			background-color: $background-dark;
 			border-color: $decoration-active;
@@ -114,7 +115,7 @@ div[contenteditable="true"],
 			border-color: $decoration-active;
 		}
 	}
-	
+
 	&:disabled {
 		background-color: $background-alternate;
 		color: $foreground-inactive;
@@ -153,11 +154,11 @@ input[type="button"] {
 	color: $foreground-normal;
 
 	&:not(:disabled):not(.primary):not(#quota) {
-		
+
 		&:hover {
 			border-color: $decoration-active;
 		}
-		
+
 		&:focus, &:active, &.active {
 			background-color: $background-active;
 			border-color: $decoration-active;

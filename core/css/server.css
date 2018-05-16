@@ -661,6 +661,7 @@ h1, h2, h3 {
 
 h4, h5, h6 {
   color: #f8f8f8;
+  font-weight: 500;
 }
 
 table tr {
@@ -1025,7 +1026,7 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
 
 .bubble, .app-navigation-entry-menu {
   background-color: #31363b;
-  color: #f8f8f8;
+  color: #f8f8f8 !important;
   border: 1px solid #2d3237;
   -webkit-filter: none;
   -moz-filter: none;
@@ -1033,7 +1034,7 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
   -o-filter: none;
   filter: none;
 }
-.bubble::after, .app-navigation-entry-menu::after {
+a .bubble::after, a .app-navigation-entry-menu::after {
   border-bottom-color: #2d3237;
 }
 
@@ -1069,7 +1070,7 @@ div.crumb span.icon-shared, div.crumb span.icon-public {
 }
 
 #app-navigation .utils .action:hover, #app-navigation .utils .action:focus {
-  opacity: 0.7;
+  opacity: 1;
 }
 
 /* Info colours ------------------------------------------------------------- */
@@ -2104,7 +2105,7 @@ div.circle .title, div.circle .type, div.circle .owner {
 }
 
 .app-files #app-content {
-  background-color: #232629;
+  background-color: #232629 !important;
 }
 
 .summary {
@@ -2122,10 +2123,10 @@ table td.filesize {
 
 table.multiselect thead th {
   background-color: rgba(61, 174, 233, 0.25);
-  color: #f8f8f8;
+  color: #f8f8f8 !important;
 }
 table.multiselect th a {
-  color: #f8f8f8;
+  color: #f8f8f8 !important;
 }
 
 tr span.extension, tr:hover span.extension, tr:active span.extension, tr:focus span.extension {
@@ -2151,7 +2152,7 @@ td.date, td.date > span {
   opacity: 0.5;
 }
 #fileList .popovermenu .action {
-  color: #f8f8f8;
+  color: #f8f8f8 !important;
 }
 #fileList .popovermenu .action:hover, #fileList .popovermenu .action:focus, #fileList .popovermenu .action:active {
   color: #fcfcfc;

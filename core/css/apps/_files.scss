@@ -1,5 +1,5 @@
 .app-files #app-content {
-	background-color: $background-dark;
+	background-color: $background-dark !important;
 }
 
 .summary {
@@ -18,11 +18,11 @@ table td.filesize {
 table.multiselect {
 	thead th {
 		background-color: $background-active-hover;
-		color: $foreground-normal;
+		color: $foreground-normal !important;
 	}
 
 	th a {
-		color: $foreground-normal;
+		color: $foreground-normal !important;
 	}
 }
 
@@ -59,7 +59,7 @@ td.date, td.date > span {
 	}
 
 	.popovermenu .action {
-		color: $foreground-normal;
+		color: $foreground-normal !important;
 
 		&:hover, &:focus, &:active {
 			color: $foreground-active;
